@@ -6,7 +6,7 @@
 
  <a href="https://escolagpt.my.canva.site/">Protótipo</a>
  <p align="center">
-  <img width="400" alt="EscolaGpt - Protótipo" src="EscolaGpt - Protótipo.png">
+  <img width="800" alt="EscolaGpt - Protótipo" src="EscolaGpt - Protótipo.png">
 </p>
        
 
