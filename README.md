@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="500" height="140" alt="EscolaGpt" src="img/EscolaGpt.png">
+  <img width="400" alt="EscolaGpt" src="EscolaGpt.png">
 </p>
 
 # EscolaGpt
