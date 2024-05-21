@@ -1,12 +1,12 @@
 <p align="center">
-  <img width="350" alt="EscolaGpt" src="EscolaGpt.png">
+  <img width="350" alt="EscolaGpt" src="img/EscolaGpt.png">
 </p>
 
 # EscolaGpt ![GitHub](https://img.shields.io/github/license/Gunga-16/Escola-Gpt)
 
  <a href="https://escolagpt.my.canva.site/">Protótipo</a>
  <p align="center">
-  <img width="800" alt="EscolaGpt - Protótipo" src="EscolaGpt - Protótipo.png">
+  <img width="800" alt="EscolaGpt - Protótipo" src="img/EscolaGpt - Protótipo.png">
 </p>
        
 
