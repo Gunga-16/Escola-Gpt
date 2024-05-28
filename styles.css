@@ -56,9 +56,6 @@ body {
 }
 .chat-container {
     position: fixed; 
-    top: 0; 
-    left: 20px; 
-    right: 20px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -101,8 +98,6 @@ body {
 .input-container {
     position: fixed; 
     bottom: 0; 
-    left: 20px; 
-    right: 20px;
     display: flex;
     padding: 15px;
     background-color: white;
