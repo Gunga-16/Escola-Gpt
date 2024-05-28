@@ -16,8 +16,8 @@ body {
     max-width: 300px;
     border-right: 1px solid #ddd;
     overflow-y: auto;
-    display: inline-block;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -65,13 +65,13 @@ body {
 }
 
 .chat-container {
-    display: block;
+    display: flex;
     flex-direction: column;
     flex-grow: 1;
 }
 
 .chatbox {
-    display: inline-block;
+    display: flex
     flex-direction: flex;
     background-color: #fff;
     flex-grow: 1;
