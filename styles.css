@@ -27,14 +27,23 @@ body {
 }
 
 .ult-conversas {
-    padding: 15px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.ult-conversas button {
+    padding: 10px 20px;
     background-color: #000;
     cursor: pointer;
+    border: none;
+    border-radius: 40px;
 }
 
 .conversation-list {
-    padding: 15px;
-    margin: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
 .conversation-list button {
