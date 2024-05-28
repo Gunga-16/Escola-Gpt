@@ -95,7 +95,6 @@ body {
     margin: 0;
 }
 .input-container {
-    position: fixed; 
     bottom: 0; 
     display: flex;
     padding: 15px;
