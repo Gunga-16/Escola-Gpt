@@ -95,9 +95,8 @@ body {
     margin: 0;
 }
 .input-container {
-    bottom: 0; 
     display: flex;
-    padding: 15px;
+    padding: 1200px;
     background-color: white;
     border-top: 1px solid #ffffff;
     align-items: center;
