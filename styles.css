@@ -20,7 +20,7 @@ body {
 
 .sidebar-logo {
     width: 70%;
-    border-radius: 20px;
+    border-radius: 10px;
     align-items: center;
 }
 
@@ -29,10 +29,6 @@ body {
 }
 
 .ult-conversas {
-    text-align: center;
-}
-
-.ult-conversas button {
     margin-top: 10px;
     margin-bottom: 20px;
     padding: 10px 20px;
@@ -44,10 +40,11 @@ body {
 
 .conversation-list {
     text-align: center;
+    align-items: center;
 }
 .conversation-list button {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 10px 20px;
     background-color: #ddd;
     color: #000;
