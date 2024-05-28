@@ -17,7 +17,7 @@ body {
     border-right: 1px solid #ddd;
     overflow-y: auto;
     display: inline-block;
-    flex-direction: column;
+    
 }
 
 .header {
