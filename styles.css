@@ -72,7 +72,7 @@ body {
 
 .chatbox {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #fff;
     flex-grow: 1;
     overflow-y: auto;
