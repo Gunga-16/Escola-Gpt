@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #000000;
     margin: 0;
     padding: 0;
     display: flex;
@@ -16,12 +16,18 @@ body {
     flex-direction: column;
     border-radius: 40px;
     box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .sidebar-logo {
-    width: 70%;
+    width: 80%;
     border-radius: 10px;
-    align-items: center;
+    text-align: center;
+    margin: auto
+
 }
 
 .img {
@@ -39,8 +45,8 @@ body {
 }
 
 .conversation-list {
+    padding: 15px;
     text-align: center;
-    align-items: center;
 }
 .conversation-list button {
     margin-top: 10px;
