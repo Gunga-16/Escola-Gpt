@@ -1,125 +1,117 @@
+
+SERGIO HENRIQUE DA CUNHA CALAZANS <sergio.calazans@escola.pr.gov.br>
+09:24 (há 0 minuto)
+para mim
+
 body {
     font-family: Arial, sans-serif;
-    background-color: black;
+    background-color: #f9f9f9;
     margin: 0;
     padding: 0;
-}
-
-.img-slidebar {
-    max-width: 50px;
-}
-.container {
     display: flex;
     height: 100vh;
+    overflow: hidden;
 }
-
 .sidebar {
     background-color: #f3f3f3;
-    width: 25%;
+    width: 20%;
     max-width: 300px;
     border-right: 1px solid #ddd;
-    overflow-y: auto;
     display: flex;
     flex-direction: column;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
 }
-
-
-
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
 .conversation-list {
     list-style: none;
     padding: 0;
     margin: 0;
     flex-grow: 1;
+    overflow-y: auto;
 }
-
 .conversation-list li {
-    padding: 10px;
+    padding: 15px 20px;
     border-bottom: 1px solid #ddd;
     cursor: pointer;
 }
-
 .conversation-list li:hover {
     background-color: #eee;
 }
-
 .config-button {
-    padding: 10px;
+    padding: 15px;
     text-align: center;
 }
-
 .config-button button {
-    padding: 10px;
+    padding: 10px 20px;
     background-color: #000;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
-
 .config-button button:hover {
     background-color: #333;
 }
-
 .chat-container {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    background-color: #fff;
 }
-
 .chatbox {
     display: flex;
     flex-direction: column;
-    background-color: #fff;
     flex-grow: 1;
     overflow-y: auto;
-    padding: 10px;
+    padding: 20px;
 }
-
 .message {
     display: flex;
-    padding: 10px;
+    padding: 15px;
     margin: 10px 0;
     border-radius: 10px;
+    max-width: 60%;
 }
-
 .message.user {
     align-self: flex-end;
     background-color: #e1f7d5;
     text-align: right;
 }
-
 .message.bot {
     align-self: flex-start;
     background-color: #e9e9eb;
 }
-
 .message p {
     margin: 0;
 }
-
 .input-container {
     display: flex;
-    padding: 10px;
+    padding: 15px;
     border-top: 1px solid #ddd;
+    align-items: center;
 }
-
 .input-container input {
     flex-grow: 1;
-    padding: 10px;
+    padding: 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-right: 10px;
 }
-
 .input-container button {
-    padding: 10px;
+    padding: 15px;
     background-color: #000;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
-
 .input-container button:hover {
     background-color: #333;
 }
@@ -127,15 +119,14 @@ body {
 @media (max-width: 768px) {
     .sidebar {
         width: 100%;
+        max-width: none;
         height: auto;
         border-right: none;
         border-bottom: 1px solid #ddd;
     }
-
     .chat-container {
         flex-direction: column;
     }
-
     .chatbox {
         flex-grow: 1;
     }
