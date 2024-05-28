@@ -61,7 +61,6 @@ body {
     background-color: #000000;
 }
 .chatbox {
-    
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -70,6 +69,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     margin-right: 1200px;
+    margin-left: 1200px;
     margin: 40px 40px;
 }
 .message {
