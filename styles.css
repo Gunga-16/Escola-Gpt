@@ -71,8 +71,8 @@ body {
 }
 
 .chatbox {
-    display: flex;
-    flex-direction: row;
+    display: none;
+    flex-direction: flex;
     background-color: #fff;
     flex-grow: 1;
     overflow-y: auto;
