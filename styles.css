@@ -19,7 +19,9 @@ body {
 }
 
 .sidebar-logo {
-    width: 50%;
+    width: 70%;
+    border-radius: 20px;
+    align-items: center;
 }
 
 .img {
@@ -27,13 +29,12 @@ body {
 }
 
 .ult-conversas {
-    margin-top: 10px;
-    margin-bottom: 20px;
     text-align: center;
-    
 }
 
 .ult-conversas button {
+    margin-top: 10px;
+    margin-bottom: 20px;
     padding: 10px 20px;
     background-color: #000;
     cursor: pointer;
@@ -42,11 +43,11 @@ body {
 }
 
 .conversation-list {
-    margin-top: 10px;
-    margin-bottom: 20px;
     text-align: center;
 }
 .conversation-list button {
+    margin-top: 10px;
+    margin-bottom: 20px;
     padding: 10px 20px;
     background-color: #ddd;
     color: #000;
