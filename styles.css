@@ -95,6 +95,7 @@ body {
     margin: 0;
 }
 .input-container {
+    position: absolute;
     display: flex;
     padding: 15px;
     background-color: white;
