@@ -18,7 +18,7 @@ body {
     font-weight: bold;
 }
 .chatbox {
-    display: block;
+    display: flex;
     flex-grow: 1;
     flex-direction: column;
     background-color: #fff;
@@ -27,7 +27,7 @@ body {
     overflow-y: auto;
 }
 .message {
-    display: block;
+    display: flex;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
