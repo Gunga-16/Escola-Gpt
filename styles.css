@@ -25,10 +25,10 @@ body {
 .sidebar-logo {
     width: 50%;
     border-radius: 10px;
-    text-align: center;
+    align-content: center;
     margin-bottom: 20px;
     margin-top: 20px;
-    margin-left: 20px;
+    
 
 }
 
