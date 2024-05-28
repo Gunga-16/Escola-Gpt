@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    display: flex;
+    display: block;
     height: 100vh;
 }
 
@@ -16,7 +16,7 @@ body {
     max-width: 300px;
     border-right: 1px solid #ddd;
     overflow-y: auto;
-    display: inline-flex;
+    display: block;
     flex-direction: column;
 }
 
@@ -65,13 +65,13 @@ body {
 }
 
 .chat-container {
-    display: inline-flex;
+    display: block;
     flex-direction: column;
     flex-grow: 1;
 }
 
 .chatbox {
-    display: inline-flex;
+    display: inline-block;
     flex-direction: flex;
     background-color: #fff;
     flex-grow: 1;
