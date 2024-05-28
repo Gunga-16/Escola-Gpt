@@ -16,7 +16,7 @@ body {
     max-width: 300px;
     border-right: 1px solid #ddd;
     overflow-y: auto;
-    display: block;
+    display: flex;
     flex-direction: column;
 }
 
@@ -71,7 +71,7 @@ body {
 }
 
 .chatbox {
-    display: inline-block;
+    display: inline-flex;
     flex-direction: flex;
     background-color: #fff;
     flex-grow: 1;
