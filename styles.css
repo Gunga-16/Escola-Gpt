@@ -16,7 +16,7 @@ body {
     max-width: 300px;
     border-right: 1px solid #ddd;
     overflow-y: auto;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
 }
 
