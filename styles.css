@@ -33,6 +33,8 @@ body {
 .ult-conversas {
     margin-top: 10px;
     margin-bottom: 20px;
+    margin-left: 55px;
+    margin-right: 55px;
     padding: 10px 20px;
     background-color: #000;
     color: white;
@@ -163,7 +165,7 @@ body {
     .chat-container {
         flex-direction: column;
     }
-    
+
     .chatbox {
         flex-grow: 1;
     }
