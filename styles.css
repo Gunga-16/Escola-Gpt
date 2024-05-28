@@ -18,7 +18,7 @@ body {
     font-weight: bold;
 }
 .chatbox {
-    display: inline-block;
+    display: block;
     flex-grow: 1;
     flex-direction: column;
     background-color: #fff;
