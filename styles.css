@@ -22,6 +22,15 @@ body {
     margin-top: 40px;
 }
 
+.sidebar-logo {
+    width: 95%;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto
+
+}
+
+
 .ult-conversas {
     margin-top: 10px;
     margin-bottom: 20px;
