@@ -69,7 +69,7 @@ body {
     overflow-y: auto;
     padding: 20px;
     border-radius: 10px;
-    margin-left: auto;
+    margin-left: 20px;
 }
 .message {
     display: flex;
