@@ -61,7 +61,7 @@ body {
     background-color: #000000;
 }
 .chatbox {
-    max-width: 1200px;
+    
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
