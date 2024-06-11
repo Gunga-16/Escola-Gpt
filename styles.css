@@ -160,7 +160,6 @@ body {
 .input-container {
     display: flex;
     background-color: white;
-    border-top: 1px solid #ffffff;
     align-items: center;
     position: absolute;
 }
