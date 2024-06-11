@@ -129,7 +129,8 @@ body {
 }
 
 .chatbox-logo {
-    width: 50%;
+    display: flex;
+    width: 5%;
     border-radius: 10px;
     margin-top: 20px;
 }
