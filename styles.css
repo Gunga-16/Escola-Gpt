@@ -159,7 +159,7 @@ body {
 
 
 .footer.input-container {
-    position: fixed;
+    position: absolute;
 }
 
 .input-container {
