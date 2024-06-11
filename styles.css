@@ -139,7 +139,9 @@ body {
 }
 
 .chatbox-title {
+    text-align: center;
     display: inline-block;
+    font-size: larger;
 }
 
 .input-container {
