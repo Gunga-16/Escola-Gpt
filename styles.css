@@ -157,11 +157,15 @@ body {
     margin-left: 10px;
 }
 
+
+.footer.input-container {
+    position: fixed;
+}
+
 .input-container {
     display: flex;
     background-color: white;
     align-items: center;
-    position: fixed;
 }
 
 .input-container input {
