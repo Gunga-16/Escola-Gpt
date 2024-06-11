@@ -163,7 +163,7 @@ body {
     background-color: white;
     border-top: 1px solid #ffffff;
     align-items: center;
-    position: fixed;
+    
     
 }
 
@@ -173,6 +173,7 @@ body {
     padding: 15px;
     border: 2px solid #000000;
     margin-right: 10px;
+    position: fixed;
 }
 
 .input-container button {
@@ -181,6 +182,8 @@ body {
     border: 2px solid #000000;
     color: #000000;
     cursor: pointer;
+    position: fixed;
+
 }
 
 .input-container button:hover {
