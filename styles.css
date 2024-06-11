@@ -139,11 +139,11 @@ body {
 }
 
 .chatbox-title {
-    text-align: center;
     display: inline-block;
     font-size: large;
     justify-content: center;
-    padding-left: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 .input-container {
