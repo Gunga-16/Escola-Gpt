@@ -141,9 +141,9 @@ body {
 .chatbox-title {
     display: inline-block;
     font-size: large;
-    justify-content: center;
     margin-left: 10px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    /* margin-bottom: 20px;
 }
 
 .input-container {
