@@ -22,15 +22,13 @@ body {
     margin-top: 40px;
 }
 
-.centro{
+.div-sidebar-logo {
     text-align: center;
 }
 .sidebar-logo {
     width: 50%;
     border-radius: 10px;
-    margin-bottom: 20px;
     margin-top: 20px;
-    margin-left: 40px;
 }
 
 .ult-conversas {
