@@ -135,7 +135,7 @@ body {
 }
 
 .chatbox-title {
-    display: flex;
+    display: inline-flex;
 }
 
 .input-container {
