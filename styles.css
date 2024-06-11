@@ -161,7 +161,7 @@ body {
     display: flex;
     background-color: white;
     align-items: center;
-    position: fixed;
+    position: absolute;
 }
 
 .input-container input {
