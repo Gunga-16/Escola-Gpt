@@ -128,12 +128,17 @@ body {
 }
 
 .chatbox-logo {
+    display: inline-block;
     width: 5%;
     border-radius: 10px;
     margin-top: 20px;
 }
 
 .div-logo-title {
+    display: block;
+}
+
+.chatbox-title {
     display: inline-block;
 }
 
