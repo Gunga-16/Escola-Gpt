@@ -128,14 +128,14 @@ body {
 }
 
 .chatbox-logo {
-    display: inline-block;
+    display: flexbox;
     width: 5%;
     border-radius: 10px;
     margin-top: 20px;
 }
 
 .chatbox-title {
-    display: inline-block;
+    display: flexbox;
 }
 
 .input-container {
