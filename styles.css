@@ -105,7 +105,7 @@ body {
 }
 
 .message {
-    display: flex;
+    display: block;
     padding: 15px;
     margin: 10px 0;
     border-radius: 10px;
@@ -128,14 +128,14 @@ body {
 }
 
 .chatbox-logo {
-    display: flex;
+    display: block;
     width: 5%;
     border-radius: 10px;
     margin-top: 20px;
 }
 
 .chatbox-title {
-    display: flexbox;
+    display: inline-block;
 }
 
 .input-container {
