@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #000000;
@@ -129,7 +134,7 @@ body {
 }
 
 .chatbox-logo {
-    text-align: center;
+    float: left;
     display: inline-block;
     width: 5%;
     border-radius: 10px;
@@ -140,7 +145,7 @@ body {
 }
 
 .chatbox-title {
-    text-align: center;
+    float: left;
     display: inline-block;
     font-size: large;
     margin-left: 10px;
