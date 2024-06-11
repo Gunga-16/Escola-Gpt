@@ -132,6 +132,7 @@ body {
     width: 5%;
     border-radius: 10px;
     margin-top: 20px;
+    text-align: center;
 }
 
 .div-logo-title {
@@ -139,6 +140,7 @@ body {
 }
 
 .chatbox-title {
+    text-align: center;
     display: inline-block;
     font-size: large;
     margin-left: 10px;
