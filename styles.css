@@ -162,7 +162,8 @@ body {
     background-color: white;
     align-items: center;
     position: absolute;
-    bottom:0; 
+    bottom: 0; 
+    margin-bottom: 40px;
 }
 
 .input-container input {
