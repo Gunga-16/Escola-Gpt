@@ -158,12 +158,13 @@ body {
 }
 
 .input-container {
+    display: flex;
     background-color: white;
     align-items: center;
+    position: absolute;
 }
 
 .input-container input {
-    display: flex;
     border-radius: 40px;
     flex-grow: 1;
     padding: 15px;
@@ -177,7 +178,6 @@ body {
 }
 
 .input-container button {
-    display: flex;
     border-radius: 40px;
     padding: 15px;
     border: 2px solid #000000;
