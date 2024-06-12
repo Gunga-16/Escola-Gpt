@@ -184,7 +184,7 @@ body {
     cursor: pointer;
     bottom: 0; 
     margin-bottom: 50px;
-    display: block;
+    display: inline-flex;
 }
 
 .input-container button:hover {
