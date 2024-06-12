@@ -171,7 +171,6 @@ body {
     margin-right: 10px;
     overflow: hidden;
     width: 70%;
-    bottom: 0; 
     margin-bottom: 50px;
     position: absolute;
 }
@@ -182,7 +181,7 @@ body {
     border: 2px solid #000000;
     color: #000000;
     cursor: pointer;
-    position: absolute;
+    position: relative;
     margin-bottom: 50px;
     display: inline-flex;
 }
