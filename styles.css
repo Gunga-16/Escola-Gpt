@@ -161,7 +161,7 @@ body {
     display: flex;
     background-color: white;
     align-items: center;
-    margin-bottom: 50px;
+    
 }
 
 .input-container input {
@@ -172,8 +172,7 @@ body {
     margin-right: 10px;
     overflow: hidden;
     width: 100%;
-    position: absolute;
-    bottom: 0; 
+    margin-bottom: 50px;
 }
 
 .input-container button {
@@ -182,6 +181,9 @@ body {
     border: 2px solid #000000;
     color: #000000;
     cursor: pointer;
+    position: absolute;
+    bottom: 0; 
+    margin-bottom: 50px;
 
 }
 
