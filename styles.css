@@ -161,7 +161,7 @@ body {
     display: flex;
     background-color: white;
     align-items: center;
-    
+    position: absolute;
 }
 
 .input-container input {
@@ -173,7 +173,7 @@ body {
     overflow: hidden;
     width: 70%;
     margin-bottom: 50px;
-    position: fixed;
+   
 }
 
 .input-container button {
