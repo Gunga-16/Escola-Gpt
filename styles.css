@@ -158,12 +158,12 @@ body {
 }
 
 .input-container {
-    display: flex;
     background-color: white;
     align-items: center;
 }
 
 .input-container input {
+    display: flex;
     border-radius: 40px;
     flex-grow: 1;
     padding: 15px;
@@ -177,6 +177,7 @@ body {
 }
 
 .input-container button {
+    display: flex;
     border-radius: 40px;
     padding: 15px;
     border: 2px solid #000000;
@@ -184,8 +185,6 @@ body {
     cursor: pointer;
     bottom: 0; 
     margin-bottom: 50px;
-    position: absolute;
-
 }
 
 .input-container button:hover {
