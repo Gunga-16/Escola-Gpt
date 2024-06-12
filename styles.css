@@ -161,7 +161,6 @@ body {
     display: flex;
     background-color: white;
     align-items: center;
-    position: absolute;
 }
 
 .input-container input {
@@ -172,8 +171,9 @@ body {
     margin-right: 10px;
     overflow: hidden;
     width: 70%;
+    bottom: 0; 
     margin-bottom: 50px;
-   
+    position: absolute;
 }
 
 .input-container button {
@@ -184,6 +184,8 @@ body {
     cursor: pointer;
     bottom: 0; 
     margin-bottom: 50px;
+    position: absolute;
+
 }
 
 .input-container button:hover {
