@@ -173,6 +173,7 @@ body {
     overflow: hidden;
     width: 100%;
     margin-bottom: 50px;
+    position: absolute;
 }
 
 .input-container button {
