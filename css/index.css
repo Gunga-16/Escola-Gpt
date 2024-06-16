@@ -50,16 +50,16 @@ body{
 }
 
 .sobre-conteudo{
-    box-sizing: border-box;
-    flex-grow: 1;
     margin: 0 10em;
-    width: 100%;
+    width: 90%;
     font-size: 24px;
     text-align: justify;
 }
 
 .sobre-texto{
-    width: 70%;
+    box-sizing: border-box;
+    flex-grow: 1;
+    width: 100%;
 }
 
 .localizacao {
