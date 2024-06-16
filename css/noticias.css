@@ -1,0 +1,192 @@
+body {
+	font-family: Helvetica;	
+	color: rgba(0,0,0,1);
+}
+
+.clearfix {
+	clear: both;
+}
+
+.container {
+/*	max-width: 800px;
+	margin: 0 auto;*/
+	margin: 50px 0;
+}
+
+
+h1, h2, h3, h4, h5, h6, h7 {
+	margin: 0;
+}
+
+h2 {
+	font-size: 30px;
+	color: rgba(62, 165, 50, 1);
+}
+
+h4 {
+	font-size: 20px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	width: 48%;
+	float: left;
+	color: rgba(255,255,255,1);	
+}
+
+ul li a {
+	color: rgba(255,255,255,1);
+}
+
+ul li:first-of-type {
+	margin: 0 1% 0 0;
+}
+
+ul li:last-of-type {
+	margin: 0 0 0 1%;
+}
+
+figure {
+	margin: 0;
+	position: relative;
+}
+
+figure .carousel-photo img.carousel-image {
+	width: 100%;
+  display: block;
+}
+
+figure figcaption.details {
+	position: absolute;
+	bottom: 0;
+	height: 100%;
+	max-height: 200px;
+	padding: 0;
+	background: rgba(62, 165, 50, .7);
+	overflow: hidden;
+	transition: all .5s ease-in-out;
+}
+
+figure figcaption.details a {
+	text-decoration: none;
+}
+
+figure figcaption.details .crl-inner-details {
+	padding: 0 20px;
+	overflow: hidden;
+	}
+
+figure figcaption.details h4 {
+		padding: 10px 0 0 0;
+}
+
+figure figcaption.details .date {
+	font-size: 15px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+figure figcaption.details .crl-caption {
+	font-size: 14px;
+	font-weight: 300;
+	margin: 5px 0;
+}
+
+
+
+
+
+.container.second h2 {
+	color: rgba(30, 171, 204, 1);
+}
+
+.container.second figure figcaption.details {
+	background: rgba(30, 171, 204, .6);
+	max-height: 100%;
+}
+
+.container.second figure figcaption.details .crl-inner-details {
+	padding: 0 4vw;
+}
+
+.container.second figure figcaption.details h4 {
+	font-size: 3.5vw;
+	padding: 2vw 0 0 0;
+}
+
+.container.second figure figcaption.details .date {
+	font-size: 2vw;
+	padding: 0;
+}
+
+.container.second figure figcaption.details .crl-caption {
+	font-size: 2vw;
+	line-height: 2.2vw;
+	margin: 1vw 0;
+}
+
+
+.container.first figure.hover-effect {
+	overflow: hidden;
+}
+
+.container.first figure.hover-effect figcaption.details {
+	transform: translateY(100%);
+}
+
+
+.container.first figure.hover-effect:hover figcaption.details {
+	transform: translateY(0);
+}
+
+
+
+.container.second figure.hover-effect figcaption.details {
+	opacity: 0;
+}
+
+
+.container.second figure.hover-effect:hover figcaption.details {
+	opacity: 1;
+}
+
+
+
+
+@media (min-width:320px) and (max-width:667px) and (orientation:portrait) {
+	
+	ul li {
+		width: 100%;
+		float: none;
+	}
+	
+	ul li:first-of-type, ul li:last-of-type {
+		margin: 0 0 20px 0;
+	}
+	
+	
+	.container.second figure figcaption.details .crl-inner-details {
+		padding: 0 4vw;
+	}
+	
+	.container.second figure figcaption.details h4 {
+		font-size: 6vw;
+		padding: 5vw 0 0 0;
+	}
+	
+	.container.second figure figcaption.details .date {
+		font-size: 4vw;
+		padding: 0;
+	}
+	
+	.container.second figure figcaption.details .crl-caption {
+		font-size: 4vw;
+		line-height: 5.5vw;
+	}
+	
+}
