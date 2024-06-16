@@ -118,6 +118,8 @@ body {
     max-width: 60%;
     border-radius: 20px;
     background-color: #e9e9eb;
+    line-height: 1.5em;
+
 }
 
 .message p {
