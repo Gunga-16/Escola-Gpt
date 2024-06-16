@@ -120,7 +120,7 @@ body {
 
 .message.user {
     border-radius: 20px;
-    align-self: flex-start;
+    align-self: flex-end;
     background-color: #e9e9eb;
 }
 
