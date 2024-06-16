@@ -110,7 +110,7 @@ body {
 }
 
 .user {
-    justify-self: end;
+    align-self: flex-end;
     align-items: center;
 }
 
