@@ -168,28 +168,31 @@ body {
 
 .chatbox-title.bot {
     align-self: flex-start;
+
 }
 
-.input {
+
+.input-container {
+    display: flex;
+    align-self: flex-start;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    align-items: center;
+}
+.input-container input {
     border-radius: 40px;
     flex-grow: 1;
-    padding: 15px;
     border: 2px solid #000000;
     margin-right: 10px;
-    overflow: hidden;
     width: 70%;
     margin-bottom: 50px;
-    display: flex;
 }
 
-.input.button {
+.input-container button {
     border-radius: 40px;
-    padding: 15px;
     border: 2px solid #000000;
     color: #000000;
     cursor: pointer;
-    margin-bottom: 50px;
-    display: flex;
 }
 
 .input.button button:hover {
