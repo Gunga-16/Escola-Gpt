@@ -62,11 +62,12 @@ body{
 
 .localizacao {
     background-color: white;
+    text-align: center;
     align-items: center;
     justify-content: center;
     display: block;
     padding: 24px 0;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
 }
 
 footer{
