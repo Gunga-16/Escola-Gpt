@@ -146,12 +146,12 @@ body {
 
 .chatbox-logo {
     display: inline-flex;
-    width: 10%;
+    width: 8%;
     border-radius: 10px;
 }
 
 .chatbox-logo.bot {
-    width: 8%;
+    width: 5%;
 }
 
 .chatbox-title {
