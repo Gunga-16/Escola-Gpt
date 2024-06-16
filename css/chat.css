@@ -96,7 +96,7 @@ body {
 }
 
 .chatbox {
-    justify-self: left;
+    align-self: flex-start;
     align-items: center;
     background-color: #ffffff;
     display: flex;
