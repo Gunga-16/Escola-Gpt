@@ -110,11 +110,13 @@ body {
 }
 
 .user {
-    float: right;
+    justify-self: right;
+    align-items: center;
 }
 
 .bot {
-    align-self: flex-start;
+    justify-self: left;
+    align-items: center;
 }
 
 .message {
