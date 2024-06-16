@@ -151,7 +151,14 @@ body {
 
 .div-logo-title {
     display: flex;
-    align-items: flex-start;
+}
+
+.div-logo-title.bot {
+    align-self: flex-start;
+}
+
+.div-logo-title.user {
+    align-self: flex-end;
 }
 
 .chatbox-title {
@@ -171,7 +178,6 @@ body {
 
 }
 
-
 .input-container {
     display: flex;
     align-self: flex-start;
@@ -185,9 +191,10 @@ body {
 .input-container input {
     border-radius: 40px;
     padding: 15px;
-    flex: 1;
+    flex-grow: 1;
     border: 2px solid #000000;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .input-container button {
