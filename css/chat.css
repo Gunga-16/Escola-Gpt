@@ -134,8 +134,6 @@ body {
 }
 
 .chatbox-logo {
-    align-self: flex-end;
-    float: left;
     display: inline-flex;
     width: 3%;
     border-radius: 10px;
@@ -146,6 +144,11 @@ body {
     width: 3.4%;
 }
 
+.chatbox-logo.user {
+    align-self: flex-end;
+    width: 3.4%;
+}
+
 .div-logo-title {
     display: flex;
     align-items: flex-start;
@@ -153,12 +156,19 @@ body {
 
 .chatbox-title {
     margin-top: 15px;
-    float: left;
     display: inline-flex;
     font-size: large;
     margin-left: 10px;
 }
 
+
+.chatbox-title.user {
+    align-self: flex-end;
+}
+
+.chatbox-title.bot {
+    align-self: flex-start;
+}
 
 .input {
     border-radius: 40px;
