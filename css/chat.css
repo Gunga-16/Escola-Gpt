@@ -184,11 +184,11 @@ body {
 .input-container input {
     border-radius: 40px;
     padding: 15px;
-    padding-right: 100px;
+    /*padding-right: 100px;*/
     flex-grow: 1;
     border: 2px solid #000000;
     margin-right: 10px;
-    width: 70%;
+    width: 100%;
 }
 
 .input-container button {
