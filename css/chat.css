@@ -110,7 +110,7 @@ body {
 }
 
 .user {
-    align-self: flex-end;
+    align-self: self-end;
 }
 
 .bot {
