@@ -25,6 +25,7 @@ body{
 }
 
 .cabecalho-lista-item {
+    font-weight: bold;
 	display: inline-block;
     margin: 0 32px;
     font-size: 15px;
@@ -41,6 +42,7 @@ body{
     align-items: center;
     justify-content: center;
     display: flex;
+    padding-bottom: 20px;
 }
 
 .sobre-titulo{
@@ -52,6 +54,7 @@ body{
     width: 90%;
     font-size: 24px;
     text-align: justify;
+    text-align: center;
 }
 
 .sobre-texto{
@@ -76,7 +79,4 @@ footer{
     justify-content: center;
     display: block;
     padding: 24px 0;
-}
-.logo-alurastart {
-	width:15%;
 }
