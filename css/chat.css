@@ -134,6 +134,7 @@ body {
 }
 
 .chatbox-logo {
+    align-self: flex-end;
     float: left;
     display: inline-flex;
     width: 3%;
@@ -141,6 +142,7 @@ body {
 }
 
 .chatbox-logo.bot {
+    align-self: flex-start;
     width: 3.4%;
 }
 
@@ -167,7 +169,6 @@ body {
     overflow: hidden;
     width: 70%;
     margin-bottom: 50px;
-    position: absolute;
 }
 
 .input.button {
@@ -176,7 +177,6 @@ body {
     border: 2px solid #000000;
     color: #000000;
     cursor: pointer;
-    position: relative;
     margin-bottom: 50px;
     display: inline-flex;
 }
