@@ -111,6 +111,11 @@ body {
     margin-top: 40px;
 }
 
+.user {
+    justify-self: left;
+}
+
+
 .message {
     display: block;
     padding: 15px;
