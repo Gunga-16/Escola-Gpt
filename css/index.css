@@ -46,6 +46,11 @@ body{
 }
 
 .sobre-titulo{
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 5rem;
 	padding: 24px 0;
 }
 
