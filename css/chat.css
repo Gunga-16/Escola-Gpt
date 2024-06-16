@@ -178,6 +178,7 @@ body {
     padding: 15px;
     border-top: 1px solid #ddd;
     align-items: center;
+    position: fixed;
 }
 .input-container input {
     border-radius: 40px;
