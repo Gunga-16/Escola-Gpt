@@ -43,6 +43,7 @@ body{
     justify-content: center;
     display: flex;
     padding-bottom: 40px;
+    line-height: 1.5em;
 }
 
 .sobre-titulo{
