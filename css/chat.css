@@ -109,6 +109,15 @@ body {
     margin-top: 40px;
 }
 
+.user {
+    align-self: flex-end;
+}
+
+.bot {
+    align-self: flex-start;
+}
+
+
 .message {
     display: block;
     padding: 15px;
@@ -120,17 +129,19 @@ body {
 
 .message.user {
     border-radius: 20px;
-    align-self: flex-end;
     background-color: #e9e9eb;
 }
 
 .message.bot {
     border-radius: 20px;
-    align-self: flex-start;
     background-color: #e9e9eb;
 }
 .message p {
     margin: 0;
+}
+
+.div-logo-title {
+    display: flex;
 }
 
 .chatbox-logo {
@@ -141,18 +152,6 @@ body {
 
 .chatbox-logo.bot {
     width: 3.4%;
-}
-
-.div-logo-title {
-    display: flex;
-}
-
-.div-logo-title.bot {
-    align-self: flex-start;
-}
-
-.div-logo-title.user {
-    align-self: flex-end;
 }
 
 .chatbox-title {
