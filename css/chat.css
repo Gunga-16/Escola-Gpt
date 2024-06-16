@@ -96,7 +96,7 @@ body {
 }
 
 .chatbox {
-    align-self: flex-start;
+    justify-self: start;
     align-items: center;
     background-color: #ffffff;
     display: flex;
@@ -110,11 +110,6 @@ body {
     margin-bottom: 40px;
     margin-top: 40px;
 }
-
-.user {
-    justify-self: left;
-}
-
 
 .message {
     display: block;
