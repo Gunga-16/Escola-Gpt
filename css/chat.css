@@ -110,13 +110,12 @@ body {
 }
 
 .user {
-    align-self: flex-end;
+    float: right;
 }
 
 .bot {
     align-self: flex-start;
 }
-
 
 .message {
     display: block;
@@ -125,17 +124,10 @@ body {
     margin-bottom: 30px;
     border-radius: 10px;
     max-width: 60%;
-}
-
-.message.user {
     border-radius: 20px;
     background-color: #e9e9eb;
 }
 
-.message.bot {
-    border-radius: 20px;
-    background-color: #e9e9eb;
-}
 .message p {
     margin: 0;
 }
