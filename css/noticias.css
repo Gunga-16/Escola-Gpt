@@ -11,7 +11,8 @@
 .noticia-1 img {
 	border-radius: 20px;
 	background-color: black;
-	width: 10%;
+	width: 50%;
+	text-align: center;
 }
 
 .noticia-1.titulo {
@@ -30,6 +31,6 @@
 }
 
 .noticia-1.texto {
-	
-    width: 100%;
+    width: 70%;
 }
+
