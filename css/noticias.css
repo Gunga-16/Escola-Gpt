@@ -57,7 +57,9 @@ h4 {
 }
 
 .slides-li {
-	width: 48%;
+	display: flex;
+	margin-left: 40px;
+	width: 25%;
 	float: left;
 	color: rgba(255,255,255,1);	
 }
@@ -77,12 +79,6 @@ h4 {
 figure {
 	margin: 0;
 	position: relative;
-}
-
-figure .carousel-photo img.carousel-image {
-	margin-left: 40px;
-	width: 50%;
-    display: flex;
 }
 
 figure figcaption.details {
