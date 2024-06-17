@@ -1,0 +1,28 @@
+.noticias {
+	margin: 40px;
+	background-color: black;
+	border-radius: 20px;
+}
+
+.noticia-1 {
+	margin: 60px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.noticia-1 img {
+	width: 20%;
+}
+
+.noticia-1.titulo {
+	font-weight: bold;
+    font-size: 2rem;
+	padding: 24px 0;
+}
+
+.noticia-1.conteudo {
+	line-height: 1.5em;
+    width: 50%;
+    font-size: 20px;
+    text-align: justify;
+}
