@@ -20,6 +20,7 @@ body {
 }
 
 .cabecalho-lista-item {
+	list-style: none;
     font-weight: bold;
 	display: inline-block;
     margin: 0 32px;
@@ -52,14 +53,14 @@ h4 {
 
 .slides {
 	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-.slides-li {
+	padding: 40px;
 	display: flex;
 	margin-left: 40px;
 	width: 25%;
+}
+
+.slides-li {
+	
 	float: left;
 	color: rgba(255,255,255,1);	
 }
