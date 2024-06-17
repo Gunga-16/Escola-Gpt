@@ -50,27 +50,27 @@ h4 {
 	font-size: 20px;
 }
 
-ul {
+.slides {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
 
-ul li {
+.slides-li {
 	width: 48%;
 	float: left;
 	color: rgba(255,255,255,1);	
 }
 
-ul li a {
+.slides-li a {
 	color: rgba(255,255,255,1);
 }
 
-ul li:first-of-type {
+.slides-li:first-of-type {
 	margin: 0 1% 0 0;
 }
 
-ul li:last-of-type {
+.slides-li:last-of-type {
 	margin: 0 0 0 1%;
 }
 
@@ -179,12 +179,12 @@ figure figcaption.details .crl-caption {
 
 @media (min-width:320px) and (max-width:667px) and (orientation:portrait) {
 	
-	ul li {
+	.slides-li {
 		width: 100%;
 		float: none;
 	}
 	
-	ul li:first-of-type, ul li:last-of-type {
+	.slides-li:first-of-type, ul li:last-of-type {
 		margin: 0 0 20px 0;
 	}
 	
