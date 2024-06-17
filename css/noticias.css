@@ -1,6 +1,5 @@
 body {
-	font-family: Helvetica;	
-	color: rgba(0,0,0,1);
+	font-family:'Poppins',sans-serif;
 }
 
 
@@ -21,7 +20,6 @@ body {
 }
 
 .cabecalho-lista-item {
-	
     font-weight: bold;
 	display: inline-block;
     margin: 0 32px;
@@ -147,33 +145,6 @@ figure figcaption.details .crl-caption {
 	line-height: 2.2vw;
 	margin: 1vw 0;
 }
-
-
-.container.first figure.hover-effect {
-	overflow: hidden;
-}
-
-.container.first figure.hover-effect figcaption.details {
-	transform: translateY(100%);
-}
-
-
-.container.first figure.hover-effect:hover figcaption.details {
-	transform: translateY(0);
-}
-
-
-
-.container.second figure.hover-effect figcaption.details {
-	opacity: 0;
-}
-
-
-.container.second figure.hover-effect:hover figcaption.details {
-	opacity: 1;
-}
-
-
 
 
 @media (min-width:320px) and (max-width:667px) and (orientation:portrait) {
