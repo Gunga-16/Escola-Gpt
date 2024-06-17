@@ -4,7 +4,7 @@ body {
 
 
 .cabecalho{
-	list-style: none;
+	text-decoration: none;
 	background-color: #FFFFFF;
     color: black;
     display: flex;
