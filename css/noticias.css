@@ -3,7 +3,9 @@
 }
 
 .noticia-1 {
-	margin: 60px 60px;
+	margin-left: 40px;
+	margin-top: 20px;
+	margin-bottom: 30px;
 	background-color: white;
 	border-radius: 20px;
 }
@@ -11,7 +13,7 @@
 .noticia-1 img {
 	border-radius: 20px;
 	background-color: black;
-	width: 50%;
+	width: 30%;
 	text-align: center;
 }
 
