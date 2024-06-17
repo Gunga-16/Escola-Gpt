@@ -5,6 +5,7 @@ body {
 
 
 .cabecalho{
+	list-style: none;
 	background-color: #FFFFFF;
     color: black;
     display: flex;
@@ -20,7 +21,7 @@ body {
 }
 
 .cabecalho-lista-item {
-	list-style: none;
+	
     font-weight: bold;
 	display: inline-block;
     margin: 0 32px;
