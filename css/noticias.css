@@ -3,6 +3,29 @@ body {
 	color: rgba(0,0,0,1);
 }
 
+
+.cabecalho{
+	background-color: #FFFFFF;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+	width: 7%;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.cabecalho-lista-item {
+    font-weight: bold;
+	display: inline-block;
+    margin: 0 32px;
+    font-size: 20px;
+}
+
 .clearfix {
 	clear: both;
 }
