@@ -58,14 +58,14 @@
 
 .noticia-1 button {
 	display: block;
-	float: left;
 	width: 20%;
 	background-color: var(--cor-de-fundo);
 	border-radius: 4px;
 	padding: 1em;
 	color: var(--branco-principal);
 	text-decoration: none;
-	margin-bottom: 1em; 
+	margin-top: 20px;
+	margin-bottom: 20px; 
 	font-weight: bold;
 }
 
