@@ -29,7 +29,7 @@
 }
 
 .noticia-1.conteudo {
-	width: 70%;
+	width: 80%;
 	display: flex;
 	border: 2px solid;
 	line-height: 1.5em;
@@ -55,7 +55,7 @@
 .noticia-1.imagem img {
 	border: 1px solid black;
 	border-radius: 40px;
- 	width: 90%;
+ 	width: 100%;
 }
 
 
