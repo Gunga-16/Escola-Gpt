@@ -46,6 +46,7 @@
 }
 
 .noticia-1.titulo {
+	color: var(--cor-de-fundo);
 	box-sizing: border-box;
     flex-grow: 1;
 	margin-top: 20px;
