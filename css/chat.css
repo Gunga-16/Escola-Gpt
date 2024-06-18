@@ -149,7 +149,7 @@ body {
     border: none;
     align-items: center;
     position: fixed;
-    top: 500px;
+    bottom: 5%;
     gap: 10px; 
     width: 75%;
 
