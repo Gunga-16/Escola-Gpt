@@ -29,6 +29,7 @@
 }
 
 .noticia-1.conteudo {
+	width: 70%;
 	display: flex;
 	border: 2px solid;
 	line-height: 1.5em;
@@ -61,7 +62,7 @@
 	width: 20%;
 	background-color: var(--cor-de-fundo);
 	border-radius: 4px;
-	padding: 1em;
+	padding: 0.5em;
 	color: var(--branco-principal);
 	text-decoration: none;
 	margin-top: 20px;
