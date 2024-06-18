@@ -20,7 +20,7 @@
 }
 
 .noticia-1 {
-	grid-template-columns: 50% 50% ;
+	grid-template-columns: 70% 30% ;
 	display: flex;
 	flex-direction: row;
 	padding-left: 30px;
@@ -32,7 +32,7 @@
 }
 
 .noticia-1.imagem {
-	width: 50%;
+	width: 100%;
 }
 
 .noticia-1.titulo {
@@ -52,7 +52,8 @@
 
 .noticia-1 button {
 	width: 25%;
-	display: block;
+	display: flex;
+	flex-direction: column;
 	background-color: var(--cor-de-fundo);
 	border-radius: 4px;
 	padding: 1em;
