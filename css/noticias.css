@@ -71,7 +71,6 @@
 
 
 .noticia-1 button {
-	float: right;
 	display: block;
 	width: 20%;
 	background-color: var(--cor-de-fundo);
