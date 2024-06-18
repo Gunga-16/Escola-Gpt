@@ -39,7 +39,9 @@
 }
 
 .noticia-1.titulo {
-	margin-top: 40px;
+	box-sizing: border-box;
+    flex-grow: 1;
+	margin-top: 20px;
 	font-weight: bold;
     font-size: 2rem;
 	padding: 24px 0;
