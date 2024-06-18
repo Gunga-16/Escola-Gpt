@@ -19,6 +19,11 @@
 	padding-right: 60px;
 }
 
+.noticias h3 {
+	color: var(--branco-principal);
+	padding: 20px;
+}
+
 .noticia-1 {
 	padding-left: 30px;
 	padding-right: 30px;
