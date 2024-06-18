@@ -16,7 +16,7 @@
 }
 
 .noticia-1 img {
-	width: 30%;
+	width: 50%;
 }
 
 .noticia-1.titulo {
@@ -27,8 +27,8 @@
 
 .noticia-1.conteudo {
 	border: 1px solid;
-	box-sizing: border-box;
-    flex-grow: 1; 
+	/*box-sizing: border-box;
+    flex-grow: 1; */
 	line-height: 1.5em;
     font-size: 20px;
     text-align: justify;
