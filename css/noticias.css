@@ -52,7 +52,7 @@
 
 
 .noticia-1 button {
-	display: block;
+	flex-direction: column;
 	background-color: var(--cor-de-fundo);
 	border-radius: 4px;
 	padding: 1em;
