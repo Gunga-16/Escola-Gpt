@@ -32,7 +32,7 @@
 
 .noticia-1.imagem {
 	display: inline-block;
-	width: 1%;
+	width:min-content;
 }
 
 .noticia-1.titulo {
