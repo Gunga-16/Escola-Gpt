@@ -20,7 +20,7 @@
 }
 
 .noticia-1 {
-	display: block;
+	display: flex;
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 40px;
@@ -30,7 +30,7 @@
 }
 
 .noticia-1.imagem {
-	display: inline-block;
+	display: inline-flex;
 	width:min-content;
 }
 
