@@ -34,7 +34,7 @@
 }
 
 .noticia-1.imagem img {
- width: 5%;
+ 	width: 20%;
 }
 
 .noticia-1.titulo {
@@ -53,6 +53,7 @@
 
 
 .noticia-1 button {
+	float: left;
 	width: 20%;
 	background-color: var(--cor-de-fundo);
 	border-radius: 4px;
