@@ -22,7 +22,7 @@
 .noticia-1 {
 	grid-template-columns: 70% 30% ;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 40px;
