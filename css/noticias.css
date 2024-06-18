@@ -31,7 +31,10 @@
 
 .noticia-1.imagem {
 	display: inline-flex;
-	width: 20%;
+}
+
+.noticia-1.imagem img {
+ width: 5%;
 }
 
 .noticia-1.titulo {
