@@ -5,7 +5,8 @@
 }
 
 .noticia-1 {
-	display: block;
+	display: flex;
+	flex-direction:column;
 	margin-left: 60px;
 	margin-right: 300px;
 	padding-top: 40px;
@@ -15,8 +16,7 @@
 }
 
 .noticia-1 img {
-	display: inline-block;
-	width: 10%;
+	width: 30%;
 }
 
 .noticia-1.titulo {
@@ -27,14 +27,14 @@
 
 .noticia-1.conteudo {
 	border: 1px solid;
-	/*box-sizing: border-box;
-    flex-grow: 1; */
+	box-sizing: border-box;
+    flex-grow: 1; 
 	line-height: 1.5em;
     font-size: 20px;
     text-align: justify;
 }
 
 .noticia-1.texto {
-    width: 50%;
+    width: 70%;
 }
 
