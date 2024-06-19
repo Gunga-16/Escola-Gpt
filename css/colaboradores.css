@@ -21,13 +21,13 @@ body{
     text-align: center;
     color: white;
     font-weight: bolder;
-    font-size: larger;
+    font-size: smaller;
     padding: 24px 0;
     margin-bottom: 20px;
 }
 
 .colaboradores-todos {
-    justify-content: center;
+    justify-content:left;
     align-items: center;
 }
 
@@ -37,6 +37,10 @@ body{
     background-color: white;
     border-radius: 40px;
     gap: 5px;
+}
+
+.colaborador-div-imagem {
+    justify-content: center;
 }
 
 .colaborador-imagem {
@@ -49,6 +53,9 @@ body{
 
 .colaborador-nome {
     text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
     padding: 50px 0;
 }
 
@@ -58,6 +65,6 @@ body{
 }
 
 .colaborador-github {
-    width: 24px;
+    width: 72px;
 }
 
