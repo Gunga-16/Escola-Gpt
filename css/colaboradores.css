@@ -67,8 +67,8 @@ body{
 }
 
 .colaborador-descricao {
-    width: 20%;
-    font-size: 24px;
+    width: 100%;
+    font-size: 12px;
     border: 2px solid;
 	line-height: 1.5em;
     text-align: justify;
