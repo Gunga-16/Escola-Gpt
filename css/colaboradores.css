@@ -13,6 +13,7 @@ body{
     padding: 20px 20px 40px 40px;
     padding-left: 80px;
     justify-content: left;
+    gap: 120px;
 }
 
 .colaboradores-titulo {
@@ -30,7 +31,6 @@ body{
 }
 
 .colaborador-div {
-    margin-right: 200px;
     width: 350px;
     height: 650px;
     display: flex;
