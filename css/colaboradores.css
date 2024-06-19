@@ -1,0 +1,45 @@
+.colaborador-imagem {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+}
+
+.colaboradores {
+    background-color:white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colaborador-titulo {
+    padding: 24px 0;
+}
+
+.colaborador-descricao {
+    width: 90%;
+    font-size: 24px;
+}
+
+.colaborador-imagem {
+    width: 70%;
+}
+
+.colaborador-github {
+    width: 24px;
+}
+
+.colaborador-div {
+    text-align: center;
+}
+
+.colaborador-titulo {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.colaboradores-todos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
