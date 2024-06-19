@@ -7,6 +7,13 @@ body{
     padding: 0;
 }
 
+
+.colaboradores {
+    margin: 20px 20px 40px 40px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+
 .colaboradores-titulo {
     display: block;
     text-align: center;
@@ -16,16 +23,18 @@ body{
     padding: 24px 0;
 }
 
-.colaborador-div {
-    gap: 5px;
-}
-
 .colaboradores-todos {
-    background-color:white;
-    color: black;
+    background-color: black;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.colaborador-div {
+    background-color: white;
+    border-radius: 40px;
+    gap: 5px;
 }
 
 .colaborador-imagem {
@@ -35,27 +44,17 @@ body{
     padding: 24px 0;
 }
 
+.colaborador-nome {
+    text-align: center;
+    padding: 50px 0;
+}
+
 .colaborador-descricao {
     width: 90%;
     font-size: 24px;
-}
-
-.colaborador-imagem {
-    width: 70%;
 }
 
 .colaborador-github {
     width: 24px;
 }
 
-
-
-.colaborador-titulo {
-    text-align: center;
-    padding: 50px 0;
-}
-
-.colaboradores-todos {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
-}
