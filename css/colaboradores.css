@@ -44,8 +44,8 @@ body{
 }
 
 .colaborador-imagem {
-    width: 100px;
-    height: 100px;
+    width: 500px;
+    height: 500px;
     object-fit: fill;
     padding: 24px 0;
     margin-left: 20px;
