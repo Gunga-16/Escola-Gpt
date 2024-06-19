@@ -31,7 +31,7 @@ body{
 }
 
 .colaborador-div {
-    width: 250px;
+    width: 350px;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -68,10 +68,13 @@ body{
 
 .colaborador-descricao {
     width: 100%;
-    font-size: 12px;
+    font-size: 15px;
     border: 2px solid;
 	line-height: 1.5em;
     text-align: justify;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .colaborador-github {
