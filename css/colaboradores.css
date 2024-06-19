@@ -25,7 +25,6 @@ body{
 .colaboradores-todos {
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
-    justify-content:left;
     align-items: center;
     gap: 80px;
 }
@@ -72,7 +71,7 @@ body{
     border: 2px solid;
 	line-height: 1.5em;
     text-align: justify;
-    border-radius: 40px;
+    border-radius: 20px;
     padding-left: 20px;
     padding-right: 20px;
 }
