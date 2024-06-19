@@ -12,7 +12,7 @@ body{
     flex-direction: row;
     background-color: black;
     color: white;
-    margin: 20px 20px 40px 40px;
+    padding: 20px 20px 40px 40px;
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
 }
