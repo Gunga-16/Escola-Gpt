@@ -31,8 +31,8 @@ body{
 }
 
 .colaborador-div {
-    width: 300px;
-    height: 600px;
+    width: 350px;
+    height: 650px;
     display: flex;
     flex-direction: column;
     background-color: white;
