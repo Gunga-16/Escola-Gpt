@@ -9,12 +9,8 @@ body{
 
 
 .colaboradores {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
     background-color: black;
-    color: white;
     padding: 20px 20px 40px 40px;
-    
 }
 
 .colaboradores-titulo {
@@ -27,6 +23,8 @@ body{
 }
 
 .colaboradores-todos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
     justify-content:left;
     align-items: center;
 }
