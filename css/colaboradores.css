@@ -69,6 +69,9 @@ body{
 .colaborador-descricao {
     width: 90%;
     font-size: 24px;
+    border: 2px solid;
+	line-height: 1.5em;
+    text-align: justify;
 }
 
 .colaborador-github {
