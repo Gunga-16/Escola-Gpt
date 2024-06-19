@@ -7,14 +7,16 @@ body{
     padding: 0;
 }
 
-.colaborador-imagem {
-    width: 70%;
-    display: flex;
-    justify-content: center;
+.colaboradores-titulo {
+    display: block;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
     padding: 24px 0;
 }
 
-.colaboradores {
+.colaboradores-todos {
     background-color:white;
     color: black;
     display: flex;
@@ -22,7 +24,10 @@ body{
     align-items: center;
 }
 
-.colaboradores-titulo {
+.colaborador-imagem {
+    width: 70%;
+    display: flex;
+    justify-content: center;
     padding: 24px 0;
 }
 
