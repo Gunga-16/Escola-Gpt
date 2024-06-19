@@ -45,12 +45,12 @@ body{
 
 .colaborador-imagem {
     width: 300px;
-    height: 100px;
+    height: 400px;
     object-fit: fill;
     padding: 24px 0;
     margin-left: 20px;
     margin-right: 20px;
-    border-radius: 1000px;
+    border-radius: 1200px;
 }
 
 .colaborador-nome {
