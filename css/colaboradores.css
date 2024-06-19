@@ -27,6 +27,7 @@ body{
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     justify-content: center;
+    gap: 80px;
 }
 
 .colaborador-div {
@@ -41,7 +42,6 @@ body{
     padding-right: 60px;
     padding-top: 40px;
     padding-bottom: 40px;
-    margin-right: 240px;
     text-align: center;
 }
 
