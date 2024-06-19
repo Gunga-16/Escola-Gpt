@@ -55,7 +55,7 @@ body{
 }
 
 .colaborador-nome {
-    text-align: center;
+    justify-content: center;
     color: black;
     font-weight: bolder;
     font-size: larger;
