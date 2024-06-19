@@ -40,9 +40,11 @@ body{
 }
 
 .colaborador-imagem {
-    width: 30%;
-    justify-content: center;
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
     padding: 24px 0;
+    margin-left: 20px;
 }
 
 .colaborador-nome {
