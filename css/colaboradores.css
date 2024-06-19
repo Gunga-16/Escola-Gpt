@@ -71,8 +71,7 @@ body{
 	line-height: 1.5em;
     text-align: justify;
     border-radius: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px 20px 40px 40px;
 }
 
 .colaborador-github {
