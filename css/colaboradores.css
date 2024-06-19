@@ -12,7 +12,6 @@ body{
     background-color: black;
     padding: 20px 20px 40px 40px;
     padding-left: 80px;
-    gap: 160px;
     justify-content: center;
 }
 
@@ -31,6 +30,7 @@ body{
 }
 
 .colaborador-div {
+    margin-right: 40px;
     width: 350px;
     height: 650px;
     display: flex;
