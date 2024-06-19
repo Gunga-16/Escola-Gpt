@@ -10,7 +10,7 @@ body{
 
 .colaboradores {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: black;
     color: white;
     padding: 20px 20px 40px 40px;
