@@ -37,6 +37,8 @@ body{
     background-color: white;
     border-radius: 40px;
     gap: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .colaborador-div-imagem {
@@ -50,8 +52,6 @@ body{
     overflow: hidden;
     position: relative;
     margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .colaborador-nome {
@@ -68,6 +68,7 @@ body{
 }
 
 .colaborador-github {
-    width: 72px;
+    text-align: center;
+    width: 50px;
 }
 
