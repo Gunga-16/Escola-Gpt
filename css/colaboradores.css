@@ -50,6 +50,7 @@ body{
     padding: 24px 0;
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 20px;
 }
 
 .colaborador-nome {
