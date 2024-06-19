@@ -16,6 +16,10 @@ body{
     padding: 24px 0;
 }
 
+.colaborador-div {
+    gap: 5px;
+}
+
 .colaboradores-todos {
     background-color:white;
     color: black;
@@ -44,9 +48,7 @@ body{
     width: 24px;
 }
 
-.colaborador-div {
-    text-align: center;
-}
+
 
 .colaborador-titulo {
     text-align: center;
