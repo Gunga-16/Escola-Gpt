@@ -112,7 +112,9 @@ iframe {
 .menu-entrar:checked~.cabecalho-lista {
     display: block;
 }
-
+.menu-entrar:checked~.cabecalho-lista-item {
+    color: black;
+}
 @media screen and (min-width:1024px) {
 
     .cabecalho-lista {
