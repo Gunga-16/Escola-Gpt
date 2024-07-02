@@ -112,6 +112,20 @@ iframe {
 .menu-entrar:checked~.cabecalho-lista {
     display: block;
 }
+
+.item-menu{
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 50%;
+}
+
+.imagem-menu {
+    width: 15%;
+    border-radius: 8%;
+    margin-left: 20px;
+}
+
+
 @media screen and (min-width:1024px) {
 
     .cabecalho-lista {
@@ -151,5 +165,10 @@ iframe {
         width: 7%;
         border-radius: 8%;
     }
-
+    .imagem-menu{
+        display: none;
+    }
+.item-menu{
+    display: none;
+}
 }
