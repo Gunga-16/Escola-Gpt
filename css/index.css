@@ -98,6 +98,9 @@ iframe{
 }
 
 @media screen and (min-width:1024px){
+    #menu{
+        display: none;
+    }
     .cabecalho-lista{
         display: block;
     }
