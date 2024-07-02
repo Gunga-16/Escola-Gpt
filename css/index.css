@@ -1,16 +1,16 @@
 * {
-	margin: 0;
+    margin: 0;
     padding: 0;
 }
 
 
-body{
-    font-family:'Poppins',sans-serif;
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 
-.cabecalho{
-	background-color: #FFFFFF;
+.cabecalho {
+    background-color: #FFFFFF;
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
@@ -20,17 +20,24 @@ body{
     position: relative;
 }
 
-.cabecalho-imagem{
-	width: 15%;
+.cabecalho-imagem {
+    width: 15%;
     border-radius: 8%;
     margin-left: 20px;
 }
 
 
-.paginas{
+.paginas {
     color: rgb(255, 255, 255);
     text-decoration: none;
-}  
+}
+
+.cabecalho-lista-item {
+    padding: 8% 10%;
+    margin: 10%;
+    background-color: white;
+    border-radius: 20px;
+}
 
 .sobre {
     background-color: black;
@@ -41,14 +48,14 @@ body{
     padding-bottom: 40px;
 }
 
-.sobre-titulo{
+.sobre-titulo {
     font-weight: bold;
     font-size: 2.5rem;
     margin-top: 2rem;
-	padding: 24px 0;
+    padding: 24px 0;
 }
 
-.sobre-conteudo{
+.sobre-conteudo {
     line-height: 1.5em;
     margin: 0 10em;
     width: 90%;
@@ -56,7 +63,7 @@ body{
     text-align: justify;
 }
 
-.sobre-texto{
+.sobre-texto {
     box-sizing: border-box;
     flex-grow: 1;
     width: 100%;
@@ -72,7 +79,7 @@ body{
     padding-bottom: 20px;
 }
 
-footer{
+footer {
     color: black;
     background-color: white;
     text-align: center;
@@ -83,15 +90,15 @@ footer{
     line-height: 1.5em;
 }
 
-iframe{
+iframe {
     width: 90%;
 }
 
-#Menu{
+#Menu {
     display: none;
 }
 
-.cabecalho-lista{
+.cabecalho-lista {
     display: none;
     position: absolute;
     top: 0;
@@ -102,23 +109,23 @@ iframe{
     height: 800px;
 }
 
-.menu-entrar:checked ~ .cabecalho-lista{
+.menu-entrar:checked~.cabecalho-lista {
     display: block;
 }
 
-@media screen and (min-width:1024px){
-    
-    .cabecalho-lista{
+@media screen and (min-width:1024px) {
+
+    .cabecalho-lista {
         display: block;
         position: relative;
-    top: 0;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    left: 0;
-     height: 100%;
+        top: 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        left: 0;
+        height: 100%;
     }
 
-    .sumir{
+    .sumir {
         display: none;
     }
 
@@ -127,18 +134,28 @@ iframe{
         display: inline-block;
         margin: 0 32px;
         font-size: 20px;
+        padding: 0;
+        background-color: white;
+        border-radius: 0;
+
     }
-    .titulo-principal{
+
+    .titulo-principal {
         display: none;
     }
-    .cabecalho{
+
+    .cabecalho {
         flex-direction: row;
     }
-    .cabecalho-imagem{
+
+    .cabecalho-imagem {
         width: 7%;
         border-radius: 8%;
     }
-    .paginas{
+
+    .paginas {
         color: black;
-    }  
+    }
+
+
 }
