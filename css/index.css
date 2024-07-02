@@ -11,11 +11,12 @@ body{
 
 .cabecalho{
 	background-color: #FFFFFF;
-    color: rgb(182, 145, 145);
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 24px 0;
+    flex-direction: row-reverse;
 }
 
 .cabecalho-imagem{
@@ -115,5 +116,8 @@ iframe{
     }
     .titulo-principal{
         display: none;
+    }
+    .cabecalho{
+        flex-direction: row;
     }
 }
