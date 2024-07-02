@@ -17,6 +17,7 @@ body{
     align-items: center;
     padding: 24px 0;
     flex-direction: row-reverse;
+    position: relative;
 }
 
 .cabecalho-imagem{
@@ -92,6 +93,13 @@ iframe{
 
 .cabecalho-lista{
     display: none;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    background-color: black;
+    left: 0;
+    color: white;
+    height: 800px;
 }
 
 .menu-entrar:checked ~ .cabecalho-lista{
@@ -102,6 +110,12 @@ iframe{
     
     .cabecalho-lista{
         display: block;
+        position: relative;
+    top: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    left: 0;
+     height: 100%;
     }
 
     .sumir{
@@ -124,4 +138,5 @@ iframe{
         width: 7%;
         border-radius: 8%;
     }
+
 }
