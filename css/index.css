@@ -113,7 +113,15 @@ iframe {
     display: block;
 }
 
-.item-menu{
+.item-menu {
+    background-color: white;
+    border-radius: 50%;
+    padding: 0% 6%; 
+    height: 55px;
+    width: 100%;
+}
+
+.item-menu h1 {
     background-color: #FFFFFF;
     color: black;
     border-radius: 50%;
@@ -165,10 +173,12 @@ iframe {
         width: 7%;
         border-radius: 8%;
     }
-    .imagem-menu{
+
+    .imagem-menu {
         display: none;
     }
-.item-menu{
-    display: none;
-}
+
+    .item-menu {
+        display: none;
+    }
 }
