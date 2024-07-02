@@ -24,12 +24,6 @@ body{
     margin-left: 20px;
 }
 
-.cabecalho-lista-item {
-    font-weight: bold;
-	display: inline-block;
-    margin: 0 32px;
-    font-size: 20px;
-}
 
 .paginas{
     color: black;
@@ -89,4 +83,34 @@ footer{
 
 iframe{
     width: 90%;
+}
+
+#menu{
+    display: none;
+}
+
+.cabecalho-lista{
+    display: none;
+}
+
+.menu-entrar:checked ~ .cabecalho-lista{
+    display: block;
+}
+
+@media screen and (min-width:1024px){
+    .cabecalho-lista{
+        display: block;
+    }
+
+    .sumir{
+        display: none;
+    }
+
+    .cabecalho-lista-item {
+        font-weight: bold;
+        display: inline-block;
+        margin: 0 32px;
+        font-size: 20px;
+    }
+    
 }
