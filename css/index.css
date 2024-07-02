@@ -30,14 +30,18 @@ body {
 .paginas {
     color: rgb(0, 0, 0);
     text-decoration: none;
+    font-weight: bolder;
+    text-align: center;
 }
 
 .cabecalho-lista-item {
     padding: 8% 10%;
     margin: 10%;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 10px;
+    width: 60%;
 }
+
 
 .sobre {
     background-color: black;
@@ -50,7 +54,7 @@ body {
 
 .sobre-titulo {
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     margin-top: 2rem;
     padding: 24px 0;
 }
@@ -65,8 +69,8 @@ body {
 
 .sobre-texto {
     box-sizing: border-box;
-    flex-grow: 1;
-    width: 100%;
+    width: 165%;
+    font-size: 52%;
 }
 
 .localizacao {
@@ -116,15 +120,16 @@ iframe {
 .item-menu {
     background-color: white;
     border-radius: 50%;
-    padding: 0% 6%; 
-    height: 55px;
-    width: 100%;
+    padding: 0% 6%;
+    height: 35px;
+    width: 8%;
+    padding-right: 14px;
 }
 
 .item-menu h1 {
-    background-color: #FFFFFF;
     color: black;
-    border-radius: 50%;
+    font-size: 225%;
+    text-align: center;
 }
 
 .imagem-menu {
