@@ -86,3 +86,7 @@ footer{
     padding: 24px 0;
     line-height: 1.5em;
 }
+
+iframe{
+    width: 90%;
+}
