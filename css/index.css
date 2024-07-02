@@ -28,7 +28,7 @@ body {
 
 
 .paginas {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -112,9 +112,6 @@ iframe {
 .menu-entrar:checked~.cabecalho-lista {
     display: block;
 }
-.menu-entrar:checked~.cabecalho-lista-item {
-    color: black;
-}
 @media screen and (min-width:1024px) {
 
     .cabecalho-lista {
@@ -154,10 +151,5 @@ iframe {
         width: 7%;
         border-radius: 8%;
     }
-
-    .paginas {
-        color: black;
-    }
-
 
 }
