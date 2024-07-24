@@ -26,11 +26,11 @@ body {
 }
 
 .cabecalho-imagem {
-    width: 15%;
+    width: 36%;
     border-radius: 8%;
-    margin-left: 20px;
+    margin-right: 36px;
+    margin-top: 20PX;
 }
-
 
 .paginas {
     color: rgb(0, 0, 0);
@@ -62,20 +62,25 @@ body {
     font-size: 1.8rem;
     margin-top: 2rem;
     padding: 24px 0;
+    width: 222px;
 }
 
 .sobre-conteudo {
     line-height: 1.5em;
-    margin: 0 10em;
+    /* margin: 0 10em; */
     width: 90%;
-    font-size: 24px;
+    /* font-size: 24px; */
     text-align: justify;
+    /* margin-left: -114px; */
+    width: 50%;
+    margin-right: 99px;
+
 }
 
 .sobre-texto {
     box-sizing: border-box;
-    width: 165%;
-    font-size: 52%;
+    width: 150%;
+    font-size: 92%;
 }
 
 .localizacao {
@@ -104,13 +109,11 @@ iframe {
 }
 
 .cabecalho-lista {
-    display: none;
+    display: block;
     position: relative;
-    top: 0;
-    width: 30%;
+    width: 17%;
     background-color: rgb(255, 255, 255);
-    left: 35px;
-    height: 100%;
+    left: 30px;
 }
 
 .item-menu {
