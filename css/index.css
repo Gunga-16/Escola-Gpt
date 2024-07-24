@@ -98,19 +98,14 @@ iframe {
     width: 90%;
 }
 
-#Menu {
-    display: none;
-}
-
 .cabecalho-lista {
-    display: none;
-    position: absolute;
-    top: 0;
-    width: 50%;
-    background-color: black;
-    left: 0;
-    color: white;
-    height: 800px;
+    display: block;
+        position: relative;
+        top: 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        left: 0;
+        height: 100%;
 }
 
 .menu-entrar:checked~.cabecalho-lista {
