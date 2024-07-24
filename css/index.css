@@ -138,10 +138,9 @@ iframe {
         display: flex;
         position: relative;
         top: 0;
-        width: 100%;
+        width: 50%;
         background-color: rgb(255, 255, 255);
         left: 0;
-        height: 100%;
     }
 
     .sumir {
@@ -150,10 +149,11 @@ iframe {
 
     .cabecalho {
         flex-direction: row;
+        width: 80%;
     }
 
     .cabecalho-imagem {
-        width: 8%;
+        width: 10%;
         border-radius: 8%;
     }
 
@@ -167,7 +167,7 @@ iframe {
 
     .sobre-conteudo {
         width: 50%;
-        margin-right: 200px;
+        margin-right: 322px;
         font-size: 20px;
     }
 
