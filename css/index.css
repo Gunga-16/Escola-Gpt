@@ -99,13 +99,8 @@ iframe {
 }
 
 .cabecalho-lista {
-    display: flex;
-    position: relative;
-    top: 0;
-    width: 50%;
-    background-color: rgb(255, 255, 255);
-    left: 0;
-    height: 100%;
+    display: none;
+    
 }
 
 .menu-entrar:checked~.cabecalho-lista {
