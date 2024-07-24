@@ -23,6 +23,7 @@ body {
     padding: 24px 0;
     flex-direction: row-reverse;
     position: relative;
+    width: 100%;
 }
 
 .cabecalho-imagem {
@@ -67,14 +68,9 @@ body {
 
 .sobre-conteudo {
     line-height: 1.5em;
-    /* margin: 0 10em; */
     width: 90%;
-    /* font-size: 24px; */
+    font-size: 14px;
     text-align: justify;
-    /* margin-left: -114px; */
-    width: 50%;
-    margin-right: 99px;
-
 }
 
 .sobre-texto {
@@ -86,19 +82,16 @@ body {
 .localizacao {
     background-color: white;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     display: block;
     padding: 24px 0;
     padding-bottom: 20px;
+    font-size: 10px;
 }
 
 footer {
     color: black;
     background-color: white;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     display: block;
     padding: 24px 0;
     line-height: 1.5em;
@@ -154,27 +147,12 @@ iframe {
         display: none;
     }
 
-    .cabecalho-lista-item {
-        font-weight: bold;
-        display: inline-block;
-        margin: 0 32px;
-        font-size: 20px;
-        padding: 0;
-        background-color: white;
-        border-radius: 0;
-
-    }
-
-    .titulo-principal {
-        display: none;
-    }
-
     .cabecalho {
         flex-direction: row;
     }
 
     .cabecalho-imagem {
-        width: 7%;
+        width: 8%;
         border-radius: 8%;
     }
 
@@ -184,5 +162,15 @@ iframe {
 
     .item-menu {
         display: none;
+    }
+
+    .sobre-conteudo {
+        width: 50%;
+        margin-right: 200px;
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 15px;
     }
 }
