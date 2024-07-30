@@ -4,8 +4,8 @@
     --card-border-radius: 40px;
     --card-padding: 40px;
     --card-gap: 5px;
-    --card-width: 350px;
-    --card-height: 650px;
+    --card-width: 390px;
+    --card-height: 730px;
     --image-size: 600px;
     --title-font-size: x-large;
     --description-font-size: 15px;
@@ -65,12 +65,11 @@ body {
 
 .colaborador-imagem {
     border-radius: 50%;
-    width: var(--image-size);
-    height: var(--image-size);
-    object-fit: cover; 
-    overflow: hidden;
-    position: relative;
-    margin: 0 auto; 
+    object-fit: cover;
+    margin: 0 auto;
+    width: 164px;
+    height: 220px; 
+    size: var(--image-size);
 }
 
 .colaborador-nome {
@@ -103,7 +102,6 @@ body {
     }
 
     .colaborador-div {
-        width: auto; 
         padding-left: 40px;
         padding-right: 80px;
     }
