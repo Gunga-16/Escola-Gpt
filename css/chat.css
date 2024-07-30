@@ -34,7 +34,7 @@ body {
 
 .sidebar-logo {
     width: 80px;
-    border-radius: 50%; /* Logo circular */
+    border-radius: 10%; /* Logo circular */
     margin-top: 0;
 }
 
@@ -192,7 +192,7 @@ body {
     position: fixed;
     bottom: 5%;
     gap: 10px;
-    width: 90%;
+    width: 50%;
     margin-left: 5%;
     margin-right: 5%;
 }
