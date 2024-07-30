@@ -48,8 +48,6 @@ body {
 }
 
 .colaborador-div {
-    width: var(--card-width);
-    height: var(--card-height);
     display: flex;
     flex-direction: column;
     background-color: var(--card-background-color);
