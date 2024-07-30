@@ -39,11 +39,6 @@ body {
     margin: var(--margin);
 }
 
-.titulo-principal {
-    font-size: 1.2rem; /* Reduzido para mobile-first */
-    margin: var(--margin);
-}
-
 .paginas {
     color: var(--text-color);
     text-decoration: none;
@@ -55,7 +50,7 @@ body {
     list-style: none;
     display: flex;
     flex-direction: column; /* Mudança para mobile-first */
-    gap: 1rem;
+    gap: 0.5rem;
     margin: var(--margin);
     padding: 0; /* Removido padding extra */
 }
