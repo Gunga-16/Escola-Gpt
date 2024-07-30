@@ -1,5 +1,4 @@
 :root {
-    --background-color: rgb(0, 0, 0);
     --text-color: white;
     --card-background-color: white;
     --card-border-radius: 40px;
@@ -28,7 +27,7 @@ body {
 }
 
 .colaboradores {
-    background-color: var(--background-color);
+    background-color: black;
     padding: var(--gap) var(--padding-horizontal) var(--padding-vertical) var(--padding-horizontal);
     justify-content: var(--text-align-left);
 }
@@ -44,7 +43,7 @@ body {
 
 .colaboradores-todos {
     display: grid;
-    grid-template-columns: 1fr; /* Mobile-first: 1 coluna */
+    grid-template-columns: 1fr; 
     gap: var(--grid-gap);
 }
 
@@ -68,10 +67,10 @@ body {
     border-radius: 50%;
     width: var(--image-size);
     height: var(--image-size);
-    object-fit: cover; /* Corrige a distorção da imagem */
+    object-fit: cover; 
     overflow: hidden;
     position: relative;
-    margin: 0 auto; /* Centraliza a imagem */
+    margin: 0 auto; 
 }
 
 .colaborador-nome {
@@ -96,15 +95,15 @@ body {
     width: 50px;
 }
 
-/* Media queries para telas maiores */
+
 @media (min-width: 768px) {
     .colaboradores-todos {
-        grid-template-columns: repeat(4, 1fr); /* 4 colunas para telas maiores */
-        gap: 120px; /* Ajuste do espaçamento entre colunas */
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 120px; 
     }
 
     .colaborador-div {
-        width: auto; /* Ajuste a largura para telas maiores */
+        width: auto; 
         padding-left: 40px;
         padding-right: 80px;
     }
