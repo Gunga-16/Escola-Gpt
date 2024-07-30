@@ -9,16 +9,16 @@ body {
     background-color: #181818; /* Preto */
     color: #fff; /* Branco */
     display: flex;
-    flex-direction: row; /* Exibir sidebar e chat lado a lado */
+    flex-direction: column; /* Sidebar em cima, chat embaixo */
     height: 100vh;
     overflow: hidden;
 }
 
 .sidebar {
     background-color: #282828; /* Cinza escuro */
-    width: 300px;
+    width: 100%; /* Sidebar ocupa toda a largura */
     max-width: 300px;
-    border-right: 1px solid #444; /* Separador cinza */
+    border-bottom: 1px solid #444; /* Separador cinza */
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -104,8 +104,8 @@ body {
     flex-grow: 1;
     background-color: #181818; /* Preto */
     padding: 20px; /* Espaçamento interno */
-    width: calc(100% - 300px); /* Largura ajustada para a sidebar */
-    margin-left: 20px;
+    width: 100%; /* Chat ocupa toda a largura */
+    margin-left: 0;
 }
 
 .chatbox {
@@ -224,4 +224,41 @@ body {
 
 .input-container button:hover {
     background-color: #0069d9; /* Cor azul mais escuro */
+}
+
+/* Media Query para telas menores (smartphones) */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column; /* Sidebar em cima, chat embaixo */
+    }
+
+    .sidebar {
+        width: 100%; /* Sidebar ocupa toda a largura */
+        border-right: none;
+        border-bottom: 1px solid #444; /* Separador cinza */
+    }
+
+    .chat-container {
+        width: 100%; /* Chat ocupa toda a largura */
+        margin-left: 0;
+    }
+}
+
+/* Media Query para telas maiores (tablets e desktops) */
+@media (min-width: 768px) {
+    body {
+        flex-direction: row; /* Sidebar ao lado, chat à direita */
+    }
+
+    .sidebar {
+        width: 300px;
+        max-width: 300px;
+        border-right: 1px solid #444;
+        border-bottom: none;
+    }
+
+    .chat-container {
+        width: calc(100% - 300px); /* Largura ajustada para a sidebar */
+        margin-left: 20px;
+    }
 }
