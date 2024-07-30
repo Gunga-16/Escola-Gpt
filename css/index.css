@@ -1,26 +1,39 @@
+:root {
+    --background-color: #FFFFFF;
+    --text-color: rgb(0, 0, 0);
+    --primary-color: black;
+    --secondary-color: white;
+    --font-family: 'Poppins', sans-serif;
+    --border-radius: 8%;
+    --padding: 24px 0;
+    --header-padding: 8%;
+    --margin: 10%;
+    --title-font-size: 1.8rem;
+    --content-line-height: 1.5em;
+    --content-font-size: 20px;
+    --responsive-font-size: 15px;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
-
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-family);
 }
-
 
 .titulo-principal {
     display: none;
 }
 
-
 .cabecalho {
-    background-color: #FFFFFF;
-    color: rgb(0, 0, 0);
+    background-color: var(--background-color);
+    color: var(--text-color);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px 0;
+    padding: var(--padding);
     flex-direction: row-reverse;
     position: relative;
     width: 100%;
@@ -28,30 +41,29 @@ body {
 
 .cabecalho-imagem {
     width: 36%;
-    border-radius: 8%;
+    border-radius: var(--border-radius);
     margin-right: 36px;
-    margin-top: 20PX;
+    margin-top: 20px;
 }
 
 .paginas {
-    color: rgb(0, 0, 0);
+    color: var(--text-color);
     text-decoration: none;
     font-weight: bolder;
     text-align: center;
 }
 
 .cabecalho-lista-item {
-    padding: 8% 10%;
-    margin: 10%;
-    background-color: white;
+    padding: var(--header-padding);
+    margin: var(--margin);
+    background-color: var(--secondary-color);
     border-radius: 10px;
     width: 60%;
 }
 
-
 .sobre {
-    background-color: black;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     align-items: center;
     justify-content: center;
     display: flex;
@@ -60,15 +72,15 @@ body {
 
 .sobre-titulo {
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: var(--title-font-size);
     margin-top: 2rem;
-    padding: 24px 0;
+    padding: var(--padding);
     width: 222px;
 }
 
 .sobre-conteudo {
-    line-height: 1.5em;
-    font-size: 20px;
+    line-height: var(--content-line-height);
+    font-size: var(--content-font-size);
     text-align: justify;
     margin-right: 164px;
     margin-left: 60px;
@@ -81,21 +93,21 @@ body {
 }
 
 .localizacao {
-    background-color: white;
+    background-color: var(--secondary-color);
     text-align: center;
     display: block;
-    padding: 24px 0;
+    padding: var(--padding);
     padding-bottom: 20px;
     font-size: 10px;
 }
 
 footer {
-    color: black;
-    background-color: white;
+    color: var(--text-color);
+    background-color: var(--secondary-color);
     text-align: center;
     display: block;
-    padding: 24px 0;
-    line-height: 1.5em;
+    padding: var(--padding);
+    line-height: var(--content-line-height);
 }
 
 iframe {
@@ -106,12 +118,12 @@ iframe {
     display: block;
     position: relative;
     width: 17%;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--secondary-color);
     left: 30px;
 }
 
 .item-menu {
-    background-color: white;
+    background-color: var(--secondary-color);
     border-radius: 50%;
     padding: 0% 6%;
     height: 35px;
@@ -120,26 +132,24 @@ iframe {
 }
 
 .item-menu h1 {
-    color: black;
+    color: var(--text-color);
     font-size: 225%;
     text-align: center;
 }
 
 .imagem-menu {
     width: 15%;
-    border-radius: 8%;
+    border-radius: var(--border-radius);
     margin-left: 49px;
 }
 
-
 @media screen and (min-width:1024px) {
-
     .cabecalho-lista {
         display: flex;
         position: relative;
         top: 0;
         width: 50%;
-        background-color: rgb(255, 255, 255);
+        background-color: var(--secondary-color);
         left: 0;
     }
 
@@ -154,7 +164,7 @@ iframe {
 
     .cabecalho-imagem {
         width: 10%;
-        border-radius: 8%;
+        border-radius: var(--border-radius);
     }
 
     .imagem-menu {
@@ -168,10 +178,25 @@ iframe {
     .sobre-conteudo {
         width: 50%;
         margin-right: 322px;
-        font-size: 20px;
+        font-size: var(--content-font-size);
     }
 
     footer {
-        font-size: 15px;
+        font-size: var(--responsive-font-size);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho-lista-item, .sobre-conteudo, .sobre-titulo, .sobre-texto, footer {
+        font-size: var(--responsive-font-size);
+    }
+
+    .cabecalho-imagem {
+        width: 50%;
+    }
+
+    .sobre-conteudo {
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
