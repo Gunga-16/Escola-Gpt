@@ -1,80 +1,105 @@
-body{
-    font-family:’Poppins’,sans-serif;
+:root {
+    --background-color: black;
+    --text-color: white;
+    --card-background-color: white;
+    --card-border-radius: 40px;
+    --card-padding: 40px;
+    --card-gap: 5px;
+    --card-width: 350px;
+    --card-height: 650px;
+    --image-size: 250px;
+    --title-font-size: x-large;
+    --description-font-size: 15px;
+    --gap: 20px;
+    --padding-horizontal: 20px;
+    --padding-vertical: 40px;
+    --grid-gap: 20px; /* Ajustado para mobile-first */
+    --text-align-center: center;
+    --text-align-left: left;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 * {
-	margin: 0;
+    margin: 0;
     padding: 0;
 }
 
-
 .colaboradores {
-    background-color: black;
-    padding: 20px 20px 40px 40px;
-    padding-left: 80px;
-    justify-content: left;
-    
+    background-color: var(--background-color);
+    padding: var(--gap) var(--padding-horizontal) var(--padding-vertical) var(--padding-horizontal);
+    justify-content: var(--text-align-left);
 }
 
 .colaboradores-titulo {
-    text-align: center;
-    color: white;
+    text-align: var(--text-align-center);
+    color: var(--text-color);
     font-weight: bolder;
-    font-size: x-large;
-    padding: 24px 0;
-    margin-bottom: 20px;
+    font-size: var(--title-font-size);
+    padding: var(--gap) 0;
+    margin-bottom: var(--gap);
 }
 
 .colaboradores-todos {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
-    gap: 120px;
+    grid-template-columns: 1fr; /* Mobile-first: 1 coluna */
+    gap: var(--grid-gap);
 }
 
 .colaborador-div {
-    width: 350px;
-    height: 650px;
+    width: var(--card-width);
+    height: var(--card-height);
     display: flex;
     flex-direction: column;
-    background-color: white;
-    border-radius: 40px;
-    gap: 5px;
-    padding-left: 40px;
-    padding-right: 80px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
+    background-color: var(--card-background-color);
+    border-radius: var(--card-border-radius);
+    gap: var(--card-gap);
+    padding: var(--card-padding);
+    text-align: var(--text-align-center);
 }
-
 
 .colaborador-imagem {
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: var(--image-size);
+    height: var(--image-size);
     overflow: hidden;
     position: relative;
 }
 
 .colaborador-nome {
-    justify-content: center;
     color: black;
     font-weight: bolder;
     font-size: larger;
-    padding: 50px 0;
+    padding: var(--gap) 0;
 }
 
 .colaborador-descricao {
     width: 100%;
-    font-size: 15px;
+    font-size: var(--description-font-size);
     border: 2px solid;
-	line-height: 1.5em;
+    line-height: 1.5em;
     text-align: justify;
     border-radius: 20px;
-    padding: 20px 20px 40px 40px;
+    padding: var(--gap) var(--padding-horizontal) var(--padding-vertical) var(--padding-horizontal);
 }
 
 .colaborador-github {
-    text-align: center;
+    text-align: var(--text-align-center);
     width: 50px;
 }
 
+/* Media queries para telas maiores */
+@media (min-width: 768px) {
+    .colaboradores-todos {
+        grid-template-columns: repeat(4, 1fr); /* 4 colunas para telas maiores */
+        gap: 120px; /* Ajuste do espaçamento entre colunas */
+    }
+
+    .colaborador-div {
+        width: auto; /* Ajuste a largura para telas maiores */
+        padding-left: 40px;
+        padding-right: 80px;
+    }
+}
