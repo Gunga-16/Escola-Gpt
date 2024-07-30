@@ -5,13 +5,13 @@
 
 :root {
     --branco-principal: #FFFFFF;
-    --cinza-secundario: #414141;
+    --cinza-secundario: #c0c0c0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --botao-azul-efeito: #3c92fa;
     --cor-fundo: #00030C;
     --cor-texto: #000000;
-    --cor-secundaria: #4d4c4c;
+    --cor-secundaria: #d0d0d0;
     --cor-botao: #167BF7;
     --cor-botao-hover: #3c92fa;
     --font-familia: 'Poppins', sans-serif;
