@@ -6,19 +6,19 @@
 }
 
 body {
-    background-color: #f5f5f5; /* Cor de fundo similar ao Gemini */
-    color: #333; /* Cor do texto */
+    background-color: #181818; /* Preto */
+    color: #fff; /* Branco */
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* Exibir sidebar e chat lado a lado */
     height: 100vh;
     overflow: hidden;
 }
 
 .sidebar {
-    background-color: #fff; /* Branco, como no Gemini */
-    width: 100%;
+    background-color: #282828; /* Cinza escuro */
+    width: 300px;
     max-width: 300px;
-    border-right: 1px solid #ddd; /* Separador fino */
+    border-right: 1px solid #444; /* Separador cinza */
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -44,8 +44,8 @@ body {
     margin-top: 10px;
     margin-bottom: 0px;
     padding: 10px 20px;
-    background-color: #eee; /* Cor cinza claro */
-    color: #333;
+    background-color: #444; /* Cinza mais escuro */
+    color: #fff;
     cursor: pointer;
     border-radius: 40px;
     text-align: center;
@@ -68,7 +68,7 @@ body {
     margin: 0;
     padding: 10px 20px;
     background-color: transparent;
-    color: #333;
+    color: #fff; /* Branco */
     border: none;
     border-radius: 0;
     cursor: pointer;
@@ -77,7 +77,7 @@ body {
 }
 
 .conversation-list button:hover {
-    background-color: #eee;
+    background-color: #444; /* Cinza mais escuro */
 }
 
 .config-button {
@@ -87,28 +87,30 @@ body {
 
 .config-button button {
     padding: 10px 20px;
-    background-color: #fff;
-    color: #333;
-    border: 1px solid #ddd; /* Borda fina */
+    background-color: #282828; /* Cinza escuro */
+    color: #fff;
+    border: 1px solid #444; /* Borda fina cinza */
     border-radius: 40px;
     cursor: pointer;
 }
 
 .config-button button:hover {
-    background-color: #eee;
+    background-color: #444; /* Cinza mais escuro */
 }
 
 .chat-container {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    background-color: #fff;
+    background-color: #181818; /* Preto */
     padding: 20px; /* Espaçamento interno */
+    width: calc(100% - 300px); /* Largura ajustada para a sidebar */
+    margin-left: 20px;
 }
 
 .chatbox {
     align-items: flex-start; /* Alinhamento à esquerda */
-    background-color: #fff;
+    background-color: #181818; /* Preto */
     flex-direction: column;
     flex-grow: 1;
     overflow-y: auto;
@@ -143,7 +145,7 @@ body {
     margin-bottom: 30px;
     border-radius: 10px;
     max-width: 60%;
-    background-color: #f0f0f0; /* Cor cinza claro */
+    background-color: #282828; /* Cinza escuro */
     line-height: 1.5em;
     position: relative; /* Para o ícone de resposta */
 }
@@ -174,7 +176,7 @@ body {
 }
 
 .user .chatbox-title {
-    color: #333; /* Cor do texto normal */
+    color: #fff; /* Branco */
 }
 
 .bot .chatbox-title {
@@ -200,8 +202,9 @@ body {
     flex-grow: 1;
     border-radius: 40px;
     padding: 15px;
-    border: 1px solid #ddd; /* Borda fina */
-    color: #333;
+    border: 1px solid #444; /* Borda fina cinza */
+    color: #fff; /* Branco */
+    background-color: #282828; /* Cinza escuro */
 }
 
 .input-container input:focus {
@@ -221,26 +224,4 @@ body {
 
 .input-container button:hover {
     background-color: #0069d9; /* Cor azul mais escuro */
-}
-
-/* Estilos para telas maiores */
-@media (min-width: 768px) {
-    .sidebar {
-        width: 300px;
-        max-width: 300px;
-        height: 100vh;
-        border-right: 1px solid #ddd;
-        border-bottom: none;
-        margin-bottom: 0;
-    }
-
-    .chat-container {
-        flex-direction: row; /* Exibir sidebar e chat lado a lado */
-        flex-grow: 1;
-    }
-
-    .chatbox {
-        flex-grow: 1;
-        margin-left: 20px;
-    }
 }
