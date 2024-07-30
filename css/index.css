@@ -5,45 +5,44 @@
     --secondary-color: white;
     --font-family: 'Poppins', sans-serif;
     --border-radius: 8%;
-    --padding: 24px 0;
-    --header-padding: 8%;
-    --margin: 10%;
+    --header-padding: 1rem;
+    --margin: 10px;
     --title-font-size: 1.8rem;
     --content-line-height: 1.5em;
-    --content-font-size: 20px;
-    --responsive-font-size: 15px;
+    --content-font-size: 1rem;
+    --responsive-font-size: 0.875rem;
 }
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: var(--font-family);
 }
 
-.titulo-principal {
-    display: none;
-}
-
 .cabecalho {
     background-color: var(--background-color);
     color: var(--text-color);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: var(--padding);
-    flex-direction: row-reverse;
-    position: relative;
+    padding: var(--header-padding);
+    flex-wrap: wrap;
     width: 100%;
 }
 
 .cabecalho-imagem {
-    width: 36%;
+    width: 100px;
     border-radius: var(--border-radius);
-    margin-right: 36px;
-    margin-top: 20px;
+    margin: var(--margin);
+}
+
+.titulo-principal {
+    font-size: var(--title-font-size);
+    margin: var(--margin);
 }
 
 .paginas {
@@ -53,150 +52,70 @@ body {
     text-align: center;
 }
 
+.cabecalho-lista {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: var(--margin);
+    flex-wrap: wrap;
+}
+
 .cabecalho-lista-item {
     padding: var(--header-padding);
-    margin: var(--margin);
     background-color: var(--secondary-color);
     border-radius: 10px;
-    width: 60%;
 }
 
 .sobre {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    align-items: center;
-    justify-content: center;
     display: flex;
-    padding-bottom: 40px;
+    justify-content: center;
+    padding: 2rem;
 }
 
 .sobre-titulo {
     font-weight: bold;
     font-size: var(--title-font-size);
-    margin-top: 2rem;
-    padding: var(--padding);
-    width: 222px;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 .sobre-conteudo {
+    max-width: 800px;
     line-height: var(--content-line-height);
     font-size: var(--content-font-size);
     text-align: justify;
-    margin-right: 164px;
-    margin-left: 60px;
 }
 
 .sobre-texto {
-    box-sizing: border-box;
-    width: 150%;
-    font-size: 92%;
+    margin-bottom: 1rem;
 }
 
 .localizacao {
     background-color: var(--secondary-color);
     text-align: center;
-    display: block;
-    padding: var(--padding);
-    padding-bottom: 20px;
-    font-size: 10px;
+    padding: 1rem;
 }
 
 footer {
     color: var(--text-color);
     background-color: var(--secondary-color);
     text-align: center;
-    display: block;
-    padding: var(--padding);
+    padding: 1rem;
     line-height: var(--content-line-height);
 }
 
-iframe {
-    width: 90%;
-}
-
-.cabecalho-lista {
-    display: block;
-    position: relative;
-    width: 17%;
-    background-color: var(--secondary-color);
-    left: 30px;
-}
-
-.item-menu {
-    background-color: var(--secondary-color);
-    border-radius: 50%;
-    padding: 0% 6%;
-    height: 35px;
-    width: 8%;
-    padding-right: 14px;
-}
-
-.item-menu h1 {
-    color: var(--text-color);
-    font-size: 225%;
-    text-align: center;
-}
-
-.imagem-menu {
-    width: 15%;
-    border-radius: var(--border-radius);
-    margin-left: 49px;
-}
-
-@media screen and (min-width:1024px) {
-    .cabecalho-lista {
-        display: flex;
-        position: relative;
-        top: 0;
-        width: 50%;
-        background-color: var(--secondary-color);
-        left: 0;
-    }
-
-    .sumir {
-        display: none;
-    }
-
-    .cabecalho {
-        flex-direction: row;
-        width: 80%;
-    }
-
-    .cabecalho-imagem {
-        width: 10%;
-        border-radius: var(--border-radius);
-    }
-
-    .imagem-menu {
-        display: none;
-    }
-
-    .item-menu {
-        display: none;
-    }
-
-    .sobre-conteudo {
-        width: 50%;
-        margin-right: 322px;
-        font-size: var(--content-font-size);
-    }
-
-    footer {
-        font-size: var(--responsive-font-size);
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cabecalho-lista-item, .sobre-conteudo, .sobre-titulo, .sobre-texto, footer {
+@media (max-width: 768px) {
+    .sobre-conteudo, .sobre-titulo, .sobre-texto, footer {
         font-size: var(--responsive-font-size);
     }
 
     .cabecalho-imagem {
-        width: 50%;
+        width: 80px;
     }
 
-    .sobre-conteudo {
-        margin-left: 5%;
-        margin-right: 5%;
+    .titulo-principal {
+        font-size: 1.2rem;
     }
 }
