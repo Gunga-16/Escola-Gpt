@@ -34,7 +34,7 @@ body {
 }
 
 .cabecalho-imagem {
-    width: 80px; /* Reduzido para mobile-first */
+    width: 160px; /* Reduzido para mobile-first */
     border-radius: var(--border-radius);
     margin: var(--margin);
 }
