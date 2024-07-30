@@ -35,7 +35,7 @@
 
 ## Descrição do Projeto
 
-<div style="text-align: justify;"> 
+<div align="justify"> 
   
 <p>O projeto "EscolaGpt" é uma plataforma online voltada para a comunidade estudantil do Colégio Estadual do Paraná (CEP). Desenvolvi esta iniciativa com o objetivo de promover a interação e a troca de conhecimentos entre os alunos, utilizando tecnologias modernas de desenvolvimento web. A plataforma inclui diversas funcionalidades, como uma página de colaboradores, uma seção de notícias e um sistema de chat interativo.</p>
 
@@ -81,7 +81,7 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](https
 
 ## Conclusão
 
-<div style="text-align: justify;"> 
+<div align="justify"> 
 
 <p>O projeto "EscolaGpt" é uma ferramenta poderosa para a comunidade estudantil do Colégio Estadual do Paraná, promovendo a interação e a troca de conhecimentos entre os alunos. A plataforma está em desenvolvimento contínuo, e acredito que tem o potencial de evoluir e incorporar novas funcionalidades com base no feedback da comunidade, tornando-se um recurso vital para a educação e a interação dentro da escola. </p>
 </div>
