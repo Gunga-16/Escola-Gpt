@@ -102,6 +102,7 @@ body {
     }
 
     .colaborador-div {
+        width: 50%;
         padding-left: 40px;
         padding-right: 80px;
     }
