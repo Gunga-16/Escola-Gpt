@@ -31,7 +31,7 @@ header {
 .artigo {
     padding: 40px;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 40px auto;
     background-color: var(--cor-secundaria);
     border-radius: 8px;
 }
@@ -87,7 +87,7 @@ footer {
 
 .artigo-texto {
     font-size: 1rem;
-    color: var(--branco-principal);
+    color: var(--cor-de-fundo);
     line-height: 1.6;
     text-align: justify;
     margin-bottom: 20px;
