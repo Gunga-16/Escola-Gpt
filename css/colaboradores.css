@@ -60,7 +60,7 @@ body {
     margin-left: 40px;
     margin-top: 60px;
     margin-bottom: 60px;
-
+    width: 50%;
 }
 
 .colaborador-imagem {
@@ -102,7 +102,6 @@ body {
     }
 
     .colaborador-div {
-        width: 10%;
         padding-left: 40px;
         padding-right: 80px;
     }
