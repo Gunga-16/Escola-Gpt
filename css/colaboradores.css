@@ -64,8 +64,10 @@ body {
     border-radius: 50%;
     width: var(--image-size);
     height: var(--image-size);
+    object-fit: cover; /* Corrige a distorção da imagem */
     overflow: hidden;
     position: relative;
+    margin: 0 auto; /* Centraliza a imagem */
 }
 
 .colaborador-nome {
