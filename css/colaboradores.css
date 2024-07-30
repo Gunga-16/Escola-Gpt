@@ -7,13 +7,13 @@
     --card-gap: 5px;
     --card-width: 350px;
     --card-height: 650px;
-    --image-size: 70%;
+    --image-size: 600px;
     --title-font-size: x-large;
     --description-font-size: 15px;
     --gap: 20px;
     --padding-horizontal: 20px;
     --padding-vertical: 40px;
-    --grid-gap: 20px; /* Ajustado para mobile-first */
+    --grid-gap: 20px; 
     --text-align-center: center;
     --text-align-left: left;
 }
@@ -43,7 +43,6 @@ body {
 }
 
 .colaboradores-todos {
-    background-color: var(--background-color);
     display: grid;
     grid-template-columns: 1fr; /* Mobile-first: 1 coluna */
     gap: var(--grid-gap);
@@ -59,6 +58,10 @@ body {
     gap: var(--card-gap);
     padding: var(--card-padding);
     text-align: var(--text-align-center);
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
 }
 
 .colaborador-imagem {
