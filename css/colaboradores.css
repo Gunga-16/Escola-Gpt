@@ -43,6 +43,7 @@ body {
 }
 
 .colaboradores-todos {
+    background-color: var(--background-color);
     display: grid;
     grid-template-columns: 1fr; /* Mobile-first: 1 coluna */
     gap: var(--grid-gap);
@@ -61,7 +62,7 @@ body {
 }
 
 .colaborador-imagem {
-    border-radius: 50%;
+    border-radius: 70%;
     width: var(--image-size);
     height: var(--image-size);
     object-fit: cover; /* Corrige a distorção da imagem */
