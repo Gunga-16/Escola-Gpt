@@ -34,7 +34,7 @@ body {
 }
 
 .cabecalho-imagem {
-    width: 100%;
+    width: 500px;
     border-radius: var(--border-radius);
     margin: var(--margin);
 }
