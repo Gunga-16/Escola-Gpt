@@ -34,6 +34,7 @@ header {
     margin: 40px auto;
     background-color: var(--cor-secundaria);
     border-radius: 8px;
+    text-align: justify;
 }
 
 .artigo h1, .artigo h2 {
