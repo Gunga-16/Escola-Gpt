@@ -9,19 +9,68 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --botao-azul-efeito: #3c92fa;
+    --cor-fundo: #00030C;
+    --cor-texto: #FFFFFF;
+    --cor-secundaria: #C0C0C0;
+    --cor-botao: #167BF7;
+    --cor-botao-hover: #3c92fa;
+    --font-familia: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--font-familia);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    margin: 0;
+}
+
+header {
+    background-color: var(--cor-fundo);
 }
 
 .artigo {
-    background-color: var(--cor-de-fundo);
-    padding: 20px;
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--cor-secundaria);
+    border-radius: 8px;
+}
+
+.artigo h1, .artigo h2 {
+    color: var(--cor-fundo);
 }
 
 .artigo h1 {
-    color: var(--branco-principal);
-    font-weight: bolder;
-    font-size: 1.8rem;
-    text-align: center;
+    font-size: 2.5rem;
     margin-bottom: 20px;
+}
+
+.artigo h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.artigo p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.artigo ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.artigo li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    padding: 20px;
+    text-align: center;
 }
 
 .artigo-imagem {
