@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>EscolaGPT - Contato</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="img/EscolaGpt.png" alt="logo do EscolaGPT">
+
+        <nav>
+            <ul class="cabecalho-lista">
+                <li class="cabecalho-lista-item"><a class="paginas" href="index.html">
+                        <h3>Ínicio</h3>
+                    </a></li>
+                <li class="cabecalho-lista-item"><a class="paginas" href="colaboradores.html">
+                        <h3>Colaboradores</h3>
+                    </a></li>
+                <li class="cabecalho-lista-item"><a class="paginas" href="noticias.html">
+                        <h3>Notícias</h3>
+                    </a></li>
+                <li class="cabecalho-lista-item"><a class="paginas" href="contato.html">
+                        <h3>Contato</h3>
+                    </a></li>
+                <li class="cabecalho-lista-item"><a class="paginas" href="chat.html">
+                        <h3>EscolaGPT</h3>
+                    </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contato">
+        <h1 class="contato-titulo">Entre em Contato</h1>
+        <div class="contato-formulario">
+            <form action="submit_form.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Colégio Estadual do Paraná | Todos os direitos reservados</p>
+        <p>Desenvolvido por Sérgio Henrique da Cunha Calazans</p>
+    </footer>
+</body>
+
+</html>

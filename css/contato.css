@@ -1,0 +1,81 @@
+:root {
+    --background-color: #f4f4f4;
+    --form-background-color: white;
+    --form-border-radius: 8px;
+    --form-padding: 20px;
+    --form-margin: 20px auto;
+    --form-width: 90%;
+    --input-padding: 10px;
+    --input-border-radius: 4px;
+    --input-border: 1px solid #ccc;
+    --button-background-color: black;
+    --button-text-color: white;
+    --button-border: none;
+    --button-border-radius: 4px;
+    --button-padding: 10px 20px;
+    --button-font-size: 16px;
+    --label-margin-bottom: 5px;
+    --label-font-size: 16px;
+}
+
+.contato {
+    background-color: var(--background-color);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contato-titulo {
+    font-size: var(--title-font-size);
+    text-align: center;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.contato-formulario {
+    background-color: var(--form-background-color);
+    border-radius: var(--form-border-radius);
+    padding: var(--form-padding);
+    margin: var(--form-margin);
+    width: var(--form-width);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contato-formulario label {
+    display: block;
+    margin-bottom: var(--label-margin-bottom);
+    font-size: var(--label-font-size);
+}
+
+.contato-formulario input,
+.contato-formulario textarea {
+    width: 100%;
+    padding: var(--input-padding);
+    border-radius: var(--input-border-radius);
+    border: var(--input-border);
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+.contato-formulario button {
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    border: var(--button-border);
+    border-radius: var(--button-border-radius);
+    padding: var(--button-padding);
+    font-size: var(--button-font-size);
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contato-formulario button:hover {
+    background-color: #333;
+}
+
+
+@media (min-width: 768px) {
+    .contato-formulario {
+        width: 60%; 
+    }
+}
